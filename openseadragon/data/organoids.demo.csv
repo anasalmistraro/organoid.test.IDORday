@@ -1,0 +1,427 @@
+ID Organoide Form,ID Organoide Placa,Classification
+Organoid_Acq1,Ba1 96_1 Dy30 H1,
+Organoid_Acq2,Ba2 96_1 Dy30 C6,
+Organoid_Acq3,Ba2 96_1 Dy30 E4,
+Organoid_Acq4,Ba2 96_2 Dy30 B4,
+Organoid_Acq5,Ba2 96_2 Dy30 D12-2-%(stitched),
+Organoid_1,Ba1 96_1 Dy28 A2,Not Acceptable
+Organoid_2,Ba1 96_1 Dy28 A8,Acceptable
+Organoid_3,Ba1 96_1 Dy28 D4,Not Acceptable
+Organoid_4,Ba1 96_1 Dy28 E10,Acceptable
+Organoid_5,Ba1 96_1 Dy28 F12,Uncertain
+Organoid_6,Ba1 96_1 Dy28 G11,Not Acceptable
+Organoid_7,Ba1 96_1 Dy30 A1,Acceptable
+Organoid_8,Ba1 96_1 Dy30 A10,Not Acceptable
+Organoid_9,Ba1 96_1 Dy30 A11,Acceptable
+Organoid_10,Ba1 96_1 Dy30 A12,Uncertain
+Organoid_11,Ba1 96_1 Dy30 A2,Not Acceptable
+Organoid_12,Ba1 96_1 Dy30 A3,Acceptable
+Organoid_13,Ba1 96_1 Dy30 A4,Not Acceptable
+Organoid_14,Ba1 96_1 Dy30 A5,Acceptable
+Organoid_15,Ba1 96_1 Dy30 A6,Acceptable
+Organoid_16,Ba1 96_1 Dy30 A7,Not Acceptable
+Organoid_17,Ba1 96_1 Dy30 A8 INV,Acceptable
+Organoid_18,Ba1 96_1 Dy30 A8,Not Acceptable
+Organoid_19,Ba1 96_1 Dy30 A9,Not Acceptable
+Organoid_20,Ba1 96_1 Dy30 B1,Acceptable
+Organoid_21,Ba1 96_1 Dy30 B10,Not Acceptable
+Organoid_22,Ba1 96_1 Dy30 B11,Acceptable
+Organoid_23,Ba1 96_1 Dy30 B12,Uncertain
+Organoid_24,Ba1 96_1 Dy30 B2,Not Acceptable
+Organoid_25,Ba1 96_1 Dy30 B3,Acceptable
+Organoid_26,Ba1 96_1 Dy30 B4 INV,Not Acceptable
+Organoid_27,Ba1 96_1 Dy30 B4,Acceptable
+Organoid_28,Ba1 96_1 Dy30 B5,Uncertain
+Organoid_29,Ba1 96_1 Dy30 B6,Not Acceptable
+Organoid_30,Ba1 96_1 Dy30 B7,Acceptable
+Organoid_31,Ba1 96_1 Dy30 B8,Not Acceptable
+Organoid_32,Ba1 96_1 Dy30 B9,Acceptable
+Organoid_33,Ba1 96_1 Dy30 C1,Acceptable
+Organoid_34,Ba1 96_1 Dy30 C10 INV,Not Acceptable
+Organoid_35,Ba1 96_1 Dy30 C10,Acceptable
+Organoid_36,Ba1 96_1 Dy30 C11 INV,Not Acceptable
+Organoid_37,Ba1 96_1 Dy30 C11,Not Acceptable
+Organoid_38,Ba1 96_1 Dy30 C12,Acceptable
+Organoid_39,Ba1 96_1 Dy30 C2,Not Acceptable
+Organoid_40,Ba1 96_1 Dy30 C3,Acceptable
+Organoid_41,Ba1 96_1 Dy30 C4,Uncertain
+Organoid_42,Ba1 96_1 Dy30 C5,Not Acceptable
+Organoid_43,Ba1 96_1 Dy30 C6,Acceptable
+Organoid_44,Ba1 96_1 Dy30 C7,Not Acceptable
+Organoid_45,Ba1 96_1 Dy30 C8,Acceptable
+Organoid_46,Ba1 96_1 Dy30 D1,Uncertain
+Organoid_47,Ba1 96_1 Dy30 D10,Not Acceptable
+Organoid_48,Ba1 96_1 Dy30 D11 INV,Acceptable
+Organoid_49,Ba1 96_1 Dy30 D11,Not Acceptable
+Organoid_50,Ba1 96_1 Dy30 D12,Acceptable
+Organoid_51,Ba1 96_1 Dy30 D2,Uncertain
+Organoid_52,Ba1 96_1 Dy30 D3,Not Acceptable
+Organoid_53,Ba1 96_1 Dy30 D4,Acceptable
+Organoid_54,Ba1 96_1 Dy30 D5,Not Acceptable
+Organoid_55,Ba1 96_1 Dy30 D6,Acceptable
+Organoid_56,Ba1 96_1 Dy30 D7,Acceptable
+Organoid_57,Ba1 96_1 Dy30 D8,Not Acceptable
+Organoid_58,Ba1 96_1 Dy30 D9,Acceptable
+Organoid_59,Ba1 96_1 Dy30 E1,Not Acceptable
+Organoid_60,Ba1 96_1 Dy30 E10,Not Acceptable
+Organoid_61,Ba1 96_1 Dy30 E11,Acceptable
+Organoid_62,Ba1 96_1 Dy30 E12,Not Acceptable
+Organoid_63,Ba1 96_1 Dy30 E2,Acceptable
+Organoid_64,Ba1 96_1 Dy30 E3,Uncertain
+Organoid_65,Ba1 96_1 Dy30 E4,Not Acceptable
+Organoid_66,Ba1 96_1 Dy30 E5,Acceptable
+Organoid_67,Ba1 96_1 Dy30 E6,Not Acceptable
+Organoid_68,Ba1 96_1 Dy30 E7,Acceptable
+Organoid_69,Ba1 96_1 Dy30 E9,Uncertain
+Organoid_70,Ba1 96_1 Dy30 F1,Not Acceptable
+Organoid_71,Ba1 96_1 Dy30 F10,Acceptable
+Organoid_72,Ba1 96_1 Dy30 F11,Not Acceptable
+Organoid_73,Ba1 96_1 Dy30 F12,Acceptable
+Organoid_74,Ba1 96_1 Dy30 F2,Acceptable
+Organoid_75,Ba1 96_1 Dy30 F3,Not Acceptable
+Organoid_76,Ba1 96_1 Dy30 F4,Acceptable
+Organoid_77,Ba1 96_1 Dy30 F5,Not Acceptable
+Organoid_78,Ba1 96_1 Dy30 F6,Not Acceptable
+Organoid_79,Ba1 96_1 Dy30 F7,Acceptable
+Organoid_80,Ba1 96_1 Dy30 F8,Not Acceptable
+Organoid_81,Ba1 96_1 Dy30 F9,Acceptable
+Organoid_82,Ba1 96_1 Dy30 G1,Uncertain
+Organoid_83,Ba1 96_1 Dy30 G10,Not Acceptable
+Organoid_84,Ba1 96_1 Dy30 G11,Acceptable
+Organoid_85,Ba1 96_1 Dy30 G12,Not Acceptable
+Organoid_86,Ba1 96_1 Dy30 G2,Acceptable
+Organoid_87,Ba1 96_1 Dy30 G3 INV,Uncertain
+Organoid_88,Ba1 96_1 Dy30 G3,Not Acceptable
+Organoid_89,Ba1 96_1 Dy30 G5,Acceptable
+Organoid_90,Ba1 96_1 Dy30 G6,Not Acceptable
+Organoid_91,Ba1 96_1 Dy30 G7,Acceptable
+Organoid_92,Ba1 96_1 Dy30 G8,Acceptable
+Organoid_93,Ba1 96_1 Dy30 G9 INV,Not Acceptable
+Organoid_94,Ba1 96_1 Dy30 G9,Acceptable
+Organoid_95,Ba1 96_1 Dy30 H10,Not Acceptable
+Organoid_96,Ba1 96_1 Dy30 H11,Not Acceptable
+Organoid_97,Ba1 96_1 Dy30 H12,Acceptable
+Organoid_98,Ba1 96_1 Dy30 H2,Not Acceptable
+Organoid_99,Ba1 96_1 Dy30 H3,Acceptable
+Organoid_100,Ba1 96_1 Dy30 H4,Uncertain
+Organoid_101,Ba1 96_1 Dy30 H5,Not Acceptable
+Organoid_102,Ba1 96_1 Dy30 H6,Acceptable
+Organoid_103,Ba1 96_1 Dy30 H7,Not Acceptable
+Organoid_104,Ba1 96_1 Dy30 H8,Acceptable
+Organoid_105,Ba1 96_1 Dy30 H9,Uncertain
+Organoid_106,Ba2 96_1 Dy28 A7,Not Acceptable
+Organoid_107,Ba2 96_1 Dy28 C11,Acceptable
+Organoid_108,Ba2 96_1 Dy28 D10(1)%,Not Acceptable
+Organoid_109,Ba2 96_1 Dy28 D3,Acceptable
+Organoid_110,Ba2 96_1 Dy28 E7(1)%,Uncertain
+Organoid_111,Ba2 96_1 Dy28 G10,Not Acceptable
+Organoid_112,Ba2 96_1 Dy30 A10,Acceptable
+Organoid_113,Ba2 96_1 Dy30 A11,Not Acceptable
+Organoid_114,Ba2 96_1 Dy30 A12(stitched),Acceptable
+Organoid_115,Ba2 96_1 Dy30 A2,Acceptable
+Organoid_116,Ba2 96_1 Dy30 A3,Not Acceptable
+Organoid_117,Ba2 96_1 Dy30 A4,Acceptable
+Organoid_118,Ba2 96_1 Dy30 A5(stitched),Not Acceptable
+Organoid_119,Ba2 96_1 Dy30 A6 INV,Not Acceptable
+Organoid_120,Ba2 96_1 Dy30 A6,Acceptable
+Organoid_121,Ba2 96_1 Dy30 A7,Not Acceptable
+Organoid_122,Ba2 96_1 Dy30 A8,Acceptable
+Organoid_123,Ba2 96_1 Dy30 B1,Uncertain
+Organoid_124,Ba2 96_1 Dy30 B10,Not Acceptable
+Organoid_125,Ba2 96_1 Dy30 B11,Acceptable
+Organoid_126,Ba2 96_1 Dy30 B2,Not Acceptable
+Organoid_127,Ba2 96_1 Dy30 B3 INV,Acceptable
+Organoid_128,Ba2 96_1 Dy30 B3,Uncertain
+Organoid_129,Ba2 96_1 Dy30 B4(stitched),Not Acceptable
+Organoid_130,Ba2 96_1 Dy30 B5,Acceptable
+Organoid_131,Ba2 96_1 Dy30 B6,Not Acceptable
+Organoid_132,Ba2 96_1 Dy30 B7(#)%,Acceptable
+Organoid_133,Ba2 96_1 Dy30 B8(#)%,Acceptable
+Organoid_134,Ba2 96_1 Dy30 B9(stitched)#%,Not Acceptable
+Organoid_135,Ba2 96_1 Dy30 C1(1)%,Acceptable
+Organoid_136,Ba2 96_1 Dy30 C1(2)%,Not Acceptable
+Organoid_137,Ba2 96_1 Dy30 C10,Not Acceptable
+Organoid_138,Ba2 96_1 Dy30 C11,Acceptable
+Organoid_139,Ba2 96_1 Dy30 C12,Not Acceptable
+Organoid_140,Ba2 96_1 Dy30 C2,Acceptable
+Organoid_141,Ba2 96_1 Dy30 C3,Uncertain
+Organoid_142,Ba2 96_1 Dy30 C4,Not Acceptable
+Organoid_143,Ba2 96_1 Dy30 C5(stitched),Acceptable
+Organoid_144,Ba2 96_1 Dy30 C7(stitched),Not Acceptable
+Organoid_145,Ba2 96_1 Dy30 C8,Acceptable
+Organoid_146,Ba2 96_1 Dy30 C9,Uncertain
+Organoid_147,Ba2 96_1 Dy30 D1,Not Acceptable
+Organoid_148,Ba2 96_1 Dy30 D10(1)%,Acceptable
+Organoid_149,Ba2 96_1 Dy30 D10(2)%,Not Acceptable
+Organoid_150,Ba2 96_1 Dy30 D11 INV,Acceptable
+Organoid_151,Ba2 96_1 Dy30 D11,Uncertain
+Organoid_152,Ba2 96_1 Dy30 D12,Not Acceptable
+Organoid_153,Ba2 96_1 Dy30 D2,Acceptable
+Organoid_154,Ba2 96_1 Dy30 D3 INV,Not Acceptable
+Organoid_155,Ba2 96_1 Dy30 D3,Acceptable
+Organoid_156,Ba2 96_1 Dy30 D4(stitched),Acceptable
+Organoid_157,Ba2 96_1 Dy30 D5,Not Acceptable
+Organoid_158,Ba2 96_1 Dy30 D6,Acceptable
+Organoid_159,Ba2 96_1 Dy30 D7(stitched),Not Acceptable
+Organoid_160,Ba2 96_1 Dy30 D8,Not Acceptable
+Organoid_161,Ba2 96_1 Dy30 D9,Acceptable
+Organoid_162,Ba2 96_1 Dy30 E1(1)%,Not Acceptable
+Organoid_163,Ba2 96_1 Dy30 E1(2)%,Acceptable
+Organoid_164,Ba2 96_1 Dy30 E10,Uncertain
+Organoid_165,Ba2 96_1 Dy30 E11,Not Acceptable
+Organoid_166,Ba2 96_1 Dy30 E12,Acceptable
+Organoid_167,Ba2 96_1 Dy30 E2,Not Acceptable
+Organoid_168,Ba2 96_1 Dy30 E3,Acceptable
+Organoid_169,Ba2 96_1 Dy30 E5 INV,Uncertain
+Organoid_170,Ba2 96_1 Dy30 E5,Not Acceptable
+Organoid_171,Ba2 96_1 Dy30 E6,Acceptable
+Organoid_172,Ba2 96_1 Dy30 E7(1)%,Not Acceptable
+Organoid_173,Ba2 96_1 Dy30 E7(2)%,Acceptable
+Organoid_174,Ba2 96_1 Dy30 E8(1)%,Acceptable
+Organoid_175,Ba2 96_1 Dy30 E8(2)%,Not Acceptable
+Organoid_176,Ba2 96_1 Dy30 E9(stitched),Acceptable
+Organoid_177,Ba2 96_1 Dy30 F1,Not Acceptable
+Organoid_178,Ba2 96_1 Dy30 F10,Not Acceptable
+Organoid_179,Ba2 96_1 Dy30 F11,Acceptable
+Organoid_180,Ba2 96_1 Dy30 F12,Not Acceptable
+Organoid_181,Ba2 96_1 Dy30 F2,Acceptable
+Organoid_182,Ba2 96_1 Dy30 F3 INV,Uncertain
+Organoid_183,Ba2 96_1 Dy30 F3,Not Acceptable
+Organoid_184,Ba2 96_1 Dy30 F4,Acceptable
+Organoid_185,Ba2 96_1 Dy30 F5,Not Acceptable
+Organoid_186,Ba2 96_1 Dy30 F6,Acceptable
+Organoid_187,Ba2 96_1 Dy30 F7,Uncertain
+Organoid_188,Ba2 96_1 Dy30 F8,Not Acceptable
+Organoid_189,Ba2 96_1 Dy30 F9,Acceptable
+Organoid_190,Ba2 96_1 Dy30 G1,Not Acceptable
+Organoid_191,Ba2 96_1 Dy30 G10,Acceptable
+Organoid_192,Ba2 96_1 Dy30 G11,Acceptable
+Organoid_193,Ba2 96_1 Dy30 G12,Not Acceptable
+Organoid_194,Ba2 96_1 Dy30 G2,Acceptable
+Organoid_195,Ba2 96_1 Dy30 G3,Not Acceptable
+Organoid_196,Ba2 96_1 Dy30 G4(stitched),Not Acceptable
+Organoid_197,Ba2 96_1 Dy30 G5,Acceptable
+Organoid_198,Ba2 96_1 Dy30 G6,Not Acceptable
+Organoid_199,Ba2 96_1 Dy30 G7,Acceptable
+Organoid_200,Ba2 96_1 Dy30 G8(stitched),Uncertain
+Organoid_201,Ba2 96_1 Dy30 G9,Not Acceptable
+Organoid_202,Ba2 96_1 Dy30 H1,Acceptable
+Organoid_203,Ba2 96_1 Dy30 H10,Not Acceptable
+Organoid_204,Ba2 96_1 Dy30 H11,Acceptable
+Organoid_205,Ba2 96_1 Dy30 H2,Uncertain
+Organoid_206,Ba2 96_1 Dy30 H3 INV,Not Acceptable
+Organoid_207,Ba2 96_1 Dy30 H3,Acceptable
+Organoid_208,Ba2 96_1 Dy30 H4,Not Acceptable
+Organoid_209,Ba2 96_1 Dy30 H5,Acceptable
+Organoid_210,Ba2 96_1 Dy30 H6(#)%,Uncertain
+Organoid_211,Ba2 96_1 Dy30 H7,Not Acceptable
+Organoid_212,Ba2 96_1 Dy30 H8(stitched),Acceptable
+Organoid_213,Ba2 96_1 Dy30 H9,Not Acceptable
+Organoid_214,Ba2 96_2 Dy28 A3,Acceptable
+Organoid_215,Ba2 96_2 Dy28 A5,Acceptable
+Organoid_216,Ba2 96_2 Dy28 B12,Not Acceptable
+Organoid_217,Ba2 96_2 Dy28 D7(2)%,Acceptable
+Organoid_218,Ba2 96_2 Dy28 E8,Not Acceptable
+Organoid_219,Ba2 96_2 Dy28 G1,Not Acceptable
+Organoid_220,Ba2 96_2 Dy30 A11,Acceptable
+Organoid_221,Ba2 96_2 Dy30 A2 INV,Not Acceptable
+Organoid_222,Ba2 96_2 Dy30 A2,Acceptable
+Organoid_223,Ba2 96_2 Dy30 A3,Uncertain
+Organoid_224,Ba2 96_2 Dy30 A4(stitched),Not Acceptable
+Organoid_225,Ba2 96_2 Dy30 A5,Acceptable
+Organoid_226,Ba2 96_2 Dy30 A6,Not Acceptable
+Organoid_227,Ba2 96_2 Dy30 A7,Acceptable
+Organoid_228,Ba2 96_2 Dy30 A9,Uncertain
+Organoid_229,Ba2 96_2 Dy30 B1,Not Acceptable
+Organoid_230,Ba2 96_2 Dy30 B10 INV,Acceptable
+Organoid_231,Ba2 96_2 Dy30 B10,Not Acceptable
+Organoid_232,Ba2 96_2 Dy30 B11,Acceptable
+Organoid_233,Ba2 96_2 Dy30 B12,Acceptable
+Organoid_234,Ba2 96_2 Dy30 B2(#)%,Not Acceptable
+Organoid_235,Ba2 96_2 Dy30 B3(1)%,Acceptable
+Organoid_236,Ba2 96_2 Dy30 B3(2)%,Not Acceptable
+Organoid_237,Ba2 96_2 Dy30 B5(1)%,Not Acceptable
+Organoid_238,Ba2 96_2 Dy30 B5(2)%,Acceptable
+Organoid_239,Ba2 96_2 Dy30 B6,Not Acceptable
+Organoid_240,Ba2 96_2 Dy30 B7,Acceptable
+Organoid_241,Ba2 96_2 Dy30 B8(1)% INV,Uncertain
+Organoid_242,Ba2 96_2 Dy30 B8(1)%,Not Acceptable
+Organoid_243,Ba2 96_2 Dy30 B8(2)%,Acceptable
+Organoid_244,Ba2 96_2 Dy30 B9,Not Acceptable
+Organoid_245,Ba2 96_2 Dy30 C1,Acceptable
+Organoid_246,Ba2 96_2 Dy30 C10,Uncertain
+Organoid_247,Ba2 96_2 Dy30 C11,Not Acceptable
+Organoid_248,Ba2 96_2 Dy30 C2,Acceptable
+Organoid_249,Ba2 96_2 Dy30 C3,Not Acceptable
+Organoid_250,Ba2 96_2 Dy30 C4,Acceptable
+Organoid_251,Ba2 96_2 Dy30 C5,Uncertain
+Organoid_252,Ba2 96_2 Dy30 C6(stitched),Not Acceptable
+Organoid_253,Ba2 96_2 Dy30 C7,Acceptable
+Organoid_254,Ba2 96_2 Dy30 C8(1)%,Not Acceptable
+Organoid_255,Ba2 96_2 Dy30 C8(2)%,Acceptable
+Organoid_256,Ba2 96_2 Dy30 C9,Acceptable
+Organoid_257,Ba2 96_2 Dy30 D10,Not Acceptable
+Organoid_258,Ba2 96_2 Dy30 D11(#)%,Acceptable
+Organoid_259,Ba2 96_2 Dy30 D12(1)%,Not Acceptable
+Organoid_260,Ba2 96_2 Dy30 D2,Not Acceptable
+Organoid_261,Ba2 96_2 Dy30 D3,Acceptable
+Organoid_262,Ba2 96_2 Dy30 D4 INV,Not Acceptable
+Organoid_263,Ba2 96_2 Dy30 D4,Acceptable
+Organoid_264,Ba2 96_2 Dy30 D5(1)%,Uncertain
+Organoid_265,Ba2 96_2 Dy30 D5(2)%,Not Acceptable
+Organoid_266,Ba2 96_2 Dy30 D6,Acceptable
+Organoid_267,Ba2 96_2 Dy30 D7(1)%,Not Acceptable
+Organoid_268,Ba2 96_2 Dy30 D7(2)%,Acceptable
+Organoid_269,Ba2 96_2 Dy30 D9,Uncertain
+Organoid_270,Ba2 96_2 Dy30 E1(stitched),Not Acceptable
+Organoid_271,Ba2 96_2 Dy30 E10,Acceptable
+Organoid_272,Ba2 96_2 Dy30 E11,Not Acceptable
+Organoid_273,Ba2 96_2 Dy30 E12(stitched),Acceptable
+Organoid_274,Ba2 96_2 Dy30 E3(1)%,Acceptable
+Organoid_275,Ba2 96_2 Dy30 E3(2)% INV,Not Acceptable
+Organoid_276,Ba2 96_2 Dy30 E3(2)%,Acceptable
+Organoid_277,Ba2 96_2 Dy30 E4,Not Acceptable
+Organoid_278,Ba2 96_2 Dy30 E6 INV,Not Acceptable
+Organoid_279,Ba2 96_2 Dy30 E6,Acceptable
+Organoid_280,Ba2 96_2 Dy30 E7,Not Acceptable
+Organoid_281,Ba2 96_2 Dy30 E8,Acceptable
+Organoid_282,Ba2 96_2 Dy30 E9,Uncertain
+Organoid_283,Ba2 96_2 Dy30 F1,Not Acceptable
+Organoid_284,Ba2 96_2 Dy30 F11,Acceptable
+Organoid_285,Ba2 96_2 Dy30 F12,Not Acceptable
+Organoid_286,Ba2 96_2 Dy30 F2(stitched),Acceptable
+Organoid_287,Ba2 96_2 Dy30 F3,Uncertain
+Organoid_288,Ba2 96_2 Dy30 F5(stitched),Not Acceptable
+Organoid_289,Ba2 96_2 Dy30 F6,Acceptable
+Organoid_290,Ba2 96_2 Dy30 F7,Not Acceptable
+Organoid_291,Ba2 96_2 Dy30 G1,Acceptable
+Organoid_292,Ba2 96_2 Dy30 G10,Acceptable
+Organoid_293,Ba2 96_2 Dy30 G11,Not Acceptable
+Organoid_294,Ba2 96_2 Dy30 G2,Acceptable
+Organoid_295,Ba2 96_2 Dy30 G3,Not Acceptable
+Organoid_296,Ba2 96_2 Dy30 G4,Not Acceptable
+Organoid_297,Ba2 96_2 Dy30 G5,Acceptable
+Organoid_298,Ba2 96_2 Dy30 G6,Not Acceptable
+Organoid_299,Ba2 96_2 Dy30 G7,Acceptable
+Organoid_300,Ba2 96_2 Dy30 G8,Uncertain
+Organoid_301,Ba2 96_2 Dy30 G9,Not Acceptable
+Organoid_302,Ba2 96_2 Dy30 H1,Acceptable
+Organoid_303,Ba2 96_2 Dy30 H10(stitched),Not Acceptable
+Organoid_304,Ba2 96_2 Dy30 H11,Acceptable
+Organoid_305,Ba2 96_2 Dy30 H2(stitched),Uncertain
+Organoid_306,Ba2 96_2 Dy30 H3 INV,Not Acceptable
+Organoid_307,Ba2 96_2 Dy30 H3,Acceptable
+Organoid_308,Ba2 96_2 Dy30 H5,Not Acceptable
+Organoid_309,Ba2 96_2 Dy30 H6(stitched),Acceptable
+Organoid_310,Ba2 96_2 Dy30 H7,Uncertain
+Organoid_311,Ba2 96_2 Dy30 H8(stitched),Not Acceptable
+Organoid_312,Ba2 96_2 Dy30 H9,Acceptable
+Organoid_313,Ba4 96_1 Dy28 B6,Not Acceptable
+Organoid_314,Ba4 96_1 Dy28 B9,Acceptable
+Organoid_315,Ba4 96_1 Dy28 E11,Acceptable
+Organoid_316,Ba4 96_1 Dy28 E6,Not Acceptable
+Organoid_317,Ba4 96_1 Dy28 F7,Acceptable
+Organoid_318,Ba4 96_1 Dy28 F8,Not Acceptable
+Organoid_319,Ba4 96_1 Dy30 A10,Not Acceptable
+Organoid_320,Ba4 96_1 Dy30 A11 INV,Acceptable
+Organoid_321,Ba4 96_1 Dy30 A11,Not Acceptable
+Organoid_322,Ba4 96_1 Dy30 A12,Acceptable
+Organoid_323,Ba4 96_1 Dy30 A2,Uncertain
+Organoid_324,Ba4 96_1 Dy30 A3,Not Acceptable
+Organoid_325,Ba4 96_1 Dy30 A4 INV,Acceptable
+Organoid_326,Ba4 96_1 Dy30 A4,Not Acceptable
+Organoid_327,Ba4 96_1 Dy30 A5,Acceptable
+Organoid_328,Ba4 96_1 Dy30 A6,Uncertain
+Organoid_329,Ba4 96_1 Dy30 A7,Not Acceptable
+Organoid_330,Ba4 96_1 Dy30 A8,Acceptable
+Organoid_331,Ba4 96_1 Dy30 A9,Not Acceptable
+Organoid_332,Ba4 96_1 Dy30 B1,Acceptable
+Organoid_333,Ba4 96_1 Dy30 B10,Acceptable
+Organoid_334,Ba4 96_1 Dy30 B11,Not Acceptable
+Organoid_335,Ba4 96_1 Dy30 B12,Acceptable
+Organoid_336,Ba4 96_1 Dy30 B2,Not Acceptable
+Organoid_337,Ba4 96_1 Dy30 B3,Not Acceptable
+Organoid_338,Ba4 96_1 Dy30 B4,Acceptable
+Organoid_339,Ba4 96_1 Dy30 B5,Not Acceptable
+Organoid_340,Ba4 96_1 Dy30 B6,Acceptable
+Organoid_341,Ba4 96_1 Dy30 B7,Uncertain
+Organoid_342,Ba4 96_1 Dy30 B8,Not Acceptable
+Organoid_343,Ba4 96_1 Dy30 B9,Acceptable
+Organoid_344,Ba4 96_1 Dy30 C1,Not Acceptable
+Organoid_345,Ba4 96_1 Dy30 C10,Acceptable
+Organoid_346,Ba4 96_1 Dy30 C11,Uncertain
+Organoid_347,Ba4 96_1 Dy30 C12(1)%,Not Acceptable
+Organoid_348,Ba4 96_1 Dy30 C12(2)%,Acceptable
+Organoid_349,Ba4 96_1 Dy30 C2,Not Acceptable
+Organoid_350,Ba4 96_1 Dy30 C3,Acceptable
+Organoid_351,Ba4 96_1 Dy30 C4,Uncertain
+Organoid_352,Ba4 96_1 Dy30 C5,Not Acceptable
+Organoid_353,Ba4 96_1 Dy30 C6,Acceptable
+Organoid_354,Ba4 96_1 Dy30 C7,Not Acceptable
+Organoid_355,Ba4 96_1 Dy30 C8,Acceptable
+Organoid_356,Ba4 96_1 Dy30 C9,Acceptable
+Organoid_357,Ba4 96_1 Dy30 D1,Not Acceptable
+Organoid_358,Ba4 96_1 Dy30 D10,Acceptable
+Organoid_359,Ba4 96_1 Dy30 D11,Not Acceptable
+Organoid_360,Ba4 96_1 Dy30 D12,Not Acceptable
+Organoid_361,Ba4 96_1 Dy30 D2 INV,Acceptable
+Organoid_362,Ba4 96_1 Dy30 D2,Not Acceptable
+Organoid_363,Ba4 96_1 Dy30 D3,Acceptable
+Organoid_364,Ba4 96_1 Dy30 D4,Uncertain
+Organoid_365,Ba4 96_1 Dy30 D5,Not Acceptable
+Organoid_366,Ba4 96_1 Dy30 D6,Acceptable
+Organoid_367,Ba4 96_1 Dy30 D7(stitched),Not Acceptable
+Organoid_368,Ba4 96_1 Dy30 D8,Acceptable
+Organoid_369,Ba4 96_1 Dy30 D9,Uncertain
+Organoid_370,Ba4 96_1 Dy30 E1,Not Acceptable
+Organoid_371,Ba4 96_1 Dy30 E10,Acceptable
+Organoid_372,Ba4 96_1 Dy30 E11,Not Acceptable
+Organoid_373,Ba4 96_1 Dy30 E12,Acceptable
+Organoid_374,Ba4 96_1 Dy30 E2,Acceptable
+Organoid_375,Ba4 96_1 Dy30 E3 INV,Not Acceptable
+Organoid_376,Ba4 96_1 Dy30 E3,Acceptable
+Organoid_377,Ba4 96_1 Dy30 E4,Not Acceptable
+Organoid_378,Ba4 96_1 Dy30 E5,Not Acceptable
+Organoid_379,Ba4 96_1 Dy30 E6,Acceptable
+Organoid_380,Ba4 96_1 Dy30 E7,Not Acceptable
+Organoid_381,Ba4 96_1 Dy30 E8,Acceptable
+Organoid_382,Ba4 96_1 Dy30 E9,Uncertain
+Organoid_383,Ba4 96_1 Dy30 F1,Not Acceptable
+Organoid_384,Ba4 96_1 Dy30 F10(stitched),Acceptable
+Organoid_385,Ba4 96_1 Dy30 F11,Not Acceptable
+Organoid_386,Ba4 96_1 Dy30 F12,Acceptable
+Organoid_387,Ba4 96_1 Dy30 F2,Uncertain
+Organoid_388,Ba4 96_1 Dy30 F3,Not Acceptable
+Organoid_389,Ba4 96_1 Dy30 F4,Acceptable
+Organoid_390,Ba4 96_1 Dy30 F5 INV,Not Acceptable
+Organoid_391,Ba4 96_1 Dy30 F5,Acceptable
+Organoid_392,Ba4 96_1 Dy30 F6 INV,Acceptable
+Organoid_393,Ba4 96_1 Dy30 F6,Not Acceptable
+Organoid_394,Ba4 96_1 Dy30 F7,Acceptable
+Organoid_395,Ba4 96_1 Dy30 F8,Not Acceptable
+Organoid_396,Ba4 96_1 Dy30 F9,Not Acceptable
+Organoid_397,Ba4 96_1 Dy30 G1,Acceptable
+Organoid_398,Ba4 96_1 Dy30 G10,Not Acceptable
+Organoid_399,Ba4 96_1 Dy30 G11,Acceptable
+Organoid_400,Ba4 96_1 Dy30 G12,Uncertain
+Organoid_401,Ba4 96_1 Dy30 G2,Not Acceptable
+Organoid_402,Ba4 96_1 Dy30 G3 INV,Acceptable
+Organoid_403,Ba4 96_1 Dy30 G3,Not Acceptable
+Organoid_404,Ba4 96_1 Dy30 G4,Acceptable
+Organoid_405,Ba4 96_1 Dy30 G5,Uncertain
+Organoid_406,Ba4 96_1 Dy30 G6,Not Acceptable
+Organoid_407,Ba4 96_1 Dy30 G7,Acceptable
+Organoid_408,Ba4 96_1 Dy30 G8,Not Acceptable
+Organoid_409,Ba4 96_1 Dy30 G9,Acceptable
+Organoid_410,Ba4 96_1 Dy30 H1,Uncertain
+Organoid_411,Ba4 96_1 Dy30 H10,Not Acceptable
+Organoid_412,Ba4 96_1 Dy30 H11,Acceptable
+Organoid_413,Ba4 96_1 Dy30 H12,Not Acceptable
+Organoid_414,Ba4 96_1 Dy30 H2,Acceptable
+Organoid_415,Ba4 96_1 Dy30 H3,Acceptable
+Organoid_416,Ba4 96_1 Dy30 H4,Not Acceptable
+Organoid_417,Ba4 96_1 Dy30 H5,Acceptable
+Organoid_418,Ba4 96_1 Dy30 H6,Not Acceptable
+Organoid_419,Ba4 96_1 Dy30 H7,Not Acceptable
+Organoid_420,Ba4 96_1 Dy30 H8,Acceptable
+Organoid_421,Ba4 96_1 Dy30 H9(stitched),Not Acceptable
