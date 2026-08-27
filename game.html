@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teste suas habilidades! — Classificação de organoides</title>
+
+  <!-- Tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Visualizador (mantém a stack original) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.2/openseadragon.min.js"></script>
+  <script src="openseadragon/openseadragon-filtering.js"></script>
+
+  <!-- Leitura do CSV -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+  <link rel="stylesheet" href="css/game.css" />
+</head>
+
+<body data-screen="start">
+
+
+  <!-- ======================= TELA INICIAL ======================= -->
+  <section class="screen" id="screen-start">
+    <div class="shell">
+      <div class="brand"><span class="mark"></span> RehenLab · Organoid Viewer</div>
+
+      <p class="eyebrow">Observe · Classifique · Descubra · Aprenda</p>
+      <h1 class="title">Teste suas <span class="accent">habilidades!</span></h1>
+
+      <p class="lead">
+        Você sabe identificar um organoide de boa qualidade? Neste desafio, você
+        irá analisar 5 organoides e decidir se cada um é <b>Aceitável</b> ou
+        <b>Não Aceitável</b>.
+      </p>
+      <p class="lead">
+        Observe cuidadosamente as características do organoide utilizando as
+        ferramentas de visualização disponíveis — ajuste o plano focal, use o
+        gamma, aproxime e navegue pela imagem.
+      </p>
+      <p class="lead">
+        No final, você verá sua pontuação e poderá comparar suas respostas com o
+        gabarito baseado na classificação dos especialistas.
+      </p>
+
+      <div class="method">
+        <span class="step"><b>01</b> Observe</span>
+        <span class="step"><b>02</b> Classifique</span>
+        <span class="step"><b>03</b> Descubra</span>
+        <span class="step"><b>04</b> Aprenda</span>
+      </div>
+
+      <div class="start-error" id="start-error" hidden></div>
+
+      <button class="btn btn-primary btn-lg" id="start-btn" disabled>Carregando dados…</button>
+    </div>
+  </section>
+
+
+  <!-- ======================= TELA DO GUIA (critérios) ======================= -->
+  <section class="screen" id="screen-guide">
+    <div class="shell">
+      <p class="eyebrow">Antes de começar</p>
+      <h1 class="title">Como saber se o organoide <span class="accent">está bom?</span></h1>
+      <p class="lead">
+        São quatro coisas para olhar em cada imagem. Compare os dois lados de cada
+        linha — é mais ou menos assim que os especialistas decidem.
+      </p>
+
+      <ol class="criteria">
+      <li class="criterion">
+        <div class="crit-head"><span class="crit-num">01</span><h2>Integridade da superfície</h2></div>
+        <div class="crit-pair">
+          <figure class="crit-card is-good">
+            <svg class="art" viewBox="0 0 120 120" role="img" aria-hidden="true"><circle cx="93.2" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="91.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="73.8" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="71.9" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="48.1" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="46.2" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="29.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="26.8" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="27.3" cy="49.2" r="7.4" fill="#ddc5a3"/><circle cx="42.2" cy="30.6" r="7.4" fill="#ddc5a3"/><circle cx="44.0" cy="29.6" r="7.4" fill="#ddc5a3"/><circle cx="67.7" cy="26.5" r="7.4" fill="#ddc5a3"/><circle cx="87.6" cy="39.5" r="7.4" fill="#ddc5a3"/><circle cx="88.8" cy="41.2" r="7.4" fill="#ddc5a3"/><circle cx="77.4" cy="67.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="65.1" cy="78.2" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="48.9" cy="75.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="41.1" cy="60.9" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="47.5" cy="45.8" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="63.3" cy="41.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="76.6" cy="51.0" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="60" cy="60" r="32.8" fill="#c9ab84"/><circle cx="80.0" cy="60.0" r="7.4" fill="#ddc5a3"/><circle cx="68.0" cy="78.3" r="7.4" fill="#ddc5a3"/><circle cx="58.1" cy="79.9" r="7.4" fill="#ddc5a3"/><circle cx="41.0" cy="66.3" r="7.4" fill="#ddc5a3"/><circle cx="40.4" cy="56.2" r="7.4" fill="#ddc5a3"/><circle cx="55.5" cy="40.5" r="7.4" fill="#ddc5a3"/><circle cx="76.1" cy="48.1" r="7.4" fill="#ddc5a3"/><circle cx="70.1" cy="64.3" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="51.2" cy="66.6" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="58.6" cy="49.1" r="5.9" fill="#ddc5a3" opacity=".55"/></svg>
+            <figcaption>
+              <span class="tag">Bom sinal</span>
+              <b>Vilosidades suaves</b>
+              <span class="desc">Superfície lisa, sem buracos ou bolhas.</span>
+            </figcaption>
+          </figure>
+          <figure class="crit-card is-bad">
+            <svg class="art" viewBox="0 0 120 120" role="img" aria-hidden="true"><circle cx="93.2" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="91.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="73.8" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="71.9" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="48.1" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="46.2" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="29.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="26.8" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="27.3" cy="49.2" r="7.4" fill="#ddc5a3"/><circle cx="42.2" cy="30.6" r="7.4" fill="#ddc5a3"/><circle cx="44.0" cy="29.6" r="7.4" fill="#ddc5a3"/><circle cx="67.7" cy="26.5" r="7.4" fill="#ddc5a3"/><circle cx="87.6" cy="39.5" r="7.4" fill="#ddc5a3"/><circle cx="88.8" cy="41.2" r="7.4" fill="#ddc5a3"/><circle cx="77.4" cy="67.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="65.1" cy="78.2" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="48.9" cy="75.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="41.1" cy="60.9" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="47.5" cy="45.8" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="63.3" cy="41.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="76.6" cy="51.0" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="60" cy="60" r="32.8" fill="#c9ab84"/><circle cx="80.0" cy="60.0" r="7.4" fill="#ddc5a3"/><circle cx="68.0" cy="78.3" r="7.4" fill="#ddc5a3"/><circle cx="58.1" cy="79.9" r="7.4" fill="#ddc5a3"/><circle cx="41.0" cy="66.3" r="7.4" fill="#ddc5a3"/><circle cx="40.4" cy="56.2" r="7.4" fill="#ddc5a3"/><circle cx="55.5" cy="40.5" r="7.4" fill="#ddc5a3"/><circle cx="76.1" cy="48.1" r="7.4" fill="#ddc5a3"/><circle cx="70.1" cy="64.3" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="51.2" cy="66.6" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="58.6" cy="49.1" r="5.9" fill="#ddc5a3" opacity=".55"/><ellipse cx="48" cy="46" rx="9" ry="8" fill="#6f5a41"/><ellipse cx="74" cy="52" rx="7" ry="6.5" fill="#6f5a41"/><ellipse cx="58" cy="74" rx="8.5" ry="7.5" fill="#6f5a41"/><ellipse cx="80" cy="76" rx="6" ry="5.5" fill="#6f5a41"/><ellipse cx="40" cy="66" rx="6.5" ry="6" fill="#6f5a41"/></svg>
+            <figcaption>
+              <span class="tag">Sinal de alerta</span>
+              <b>Buracos ou bolhas gigantes</b>
+              <span class="desc">Buracos, bolhas grandes ou rupturas na superfície.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </li>
+      <li class="criterion">
+        <div class="crit-head"><span class="crit-num">02</span><h2>Tamanho global</h2></div>
+        <div class="crit-pair">
+          <figure class="crit-card is-good">
+            <svg class="art" viewBox="0 0 120 120" role="img" aria-hidden="true"><line x1="14" y1="20" x2="106" y2="20" stroke="#12a67c" stroke-width="2" stroke-dasharray="6 5"/><line x1="14" y1="100" x2="106" y2="100" stroke="#12a67c" stroke-width="2" stroke-dasharray="6 5"/><circle cx="91.6" cy="51.6" r="7.0" fill="#ddc5a3"/><circle cx="89.4" cy="74.2" r="7.0" fill="#ddc5a3"/><circle cx="73.1" cy="89.9" r="7.0" fill="#ddc5a3"/><circle cx="71.3" cy="90.6" r="7.0" fill="#ddc5a3"/><circle cx="48.7" cy="90.6" r="7.0" fill="#ddc5a3"/><circle cx="46.9" cy="89.9" r="7.0" fill="#ddc5a3"/><circle cx="30.6" cy="74.2" r="7.0" fill="#ddc5a3"/><circle cx="28.4" cy="51.6" r="7.0" fill="#ddc5a3"/><circle cx="29.0" cy="49.8" r="7.0" fill="#ddc5a3"/><circle cx="43.1" cy="32.0" r="7.0" fill="#ddc5a3"/><circle cx="44.8" cy="31.1" r="7.0" fill="#ddc5a3"/><circle cx="67.3" cy="28.1" r="7.0" fill="#ddc5a3"/><circle cx="86.3" cy="40.5" r="7.0" fill="#ddc5a3"/><circle cx="87.4" cy="42.1" r="7.0" fill="#ddc5a3"/><circle cx="76.6" cy="67.0" r="6.5" fill="#ddc5a3" opacity=".55"/><circle cx="64.8" cy="77.3" r="6.5" fill="#ddc5a3" opacity=".55"/><circle cx="49.5" cy="74.6" r="6.5" fill="#ddc5a3" opacity=".55"/><circle cx="42.0" cy="60.9" r="6.5" fill="#ddc5a3" opacity=".55"/><circle cx="48.1" cy="46.5" r="6.5" fill="#ddc5a3" opacity=".55"/><circle cx="63.1" cy="42.3" r="6.5" fill="#ddc5a3" opacity=".55"/><circle cx="75.8" cy="51.4" r="6.5" fill="#ddc5a3" opacity=".55"/><circle cx="60" cy="60" r="31.2" fill="#c9ab84"/><circle cx="79.0" cy="60.0" r="7.0" fill="#ddc5a3"/><circle cx="67.6" cy="77.4" r="7.0" fill="#ddc5a3"/><circle cx="58.2" cy="78.9" r="7.0" fill="#ddc5a3"/><circle cx="42.0" cy="66.0" r="7.0" fill="#ddc5a3"/><circle cx="41.3" cy="56.4" r="7.0" fill="#ddc5a3"/><circle cx="55.8" cy="41.5" r="7.0" fill="#ddc5a3"/><circle cx="75.3" cy="48.7" r="7.0" fill="#ddc5a3"/><circle cx="69.6" cy="64.1" r="5.5" fill="#ddc5a3" opacity=".55"/><circle cx="51.7" cy="66.3" r="5.5" fill="#ddc5a3" opacity=".55"/><circle cx="58.7" cy="49.6" r="5.5" fill="#ddc5a3" opacity=".55"/></svg>
+            <figcaption>
+              <span class="tag">Bom sinal</span>
+              <b>No tamanho médio</b>
+              <span class="desc">Dentro da faixa esperada para a idade do cultivo.</span>
+            </figcaption>
+          </figure>
+          <figure class="crit-card is-bad">
+            <svg class="art" viewBox="0 0 120 120" role="img" aria-hidden="true"><line x1="8" y1="52" x2="44" y2="52" stroke="#d6455a" stroke-width="2" stroke-dasharray="5 4"/><line x1="8" y1="68" x2="44" y2="68" stroke="#d6455a" stroke-width="2" stroke-dasharray="5 4"/><circle cx="37.1" cy="58.6" r="2.9" fill="#ddc5a3"/><circle cx="32.8" cy="68.9" r="2.9" fill="#ddc5a3"/><circle cx="28.9" cy="70.8" r="2.9" fill="#ddc5a3"/><circle cx="18.1" cy="67.9" r="2.9" fill="#ddc5a3"/><circle cx="15.2" cy="57.1" r="2.9" fill="#ddc5a3"/><circle cx="17.1" cy="53.2" r="2.9" fill="#ddc5a3"/><circle cx="27.4" cy="48.9" r="2.9" fill="#ddc5a3"/><circle cx="31.6" cy="50.3" r="2.9" fill="#ddc5a3"/><circle cx="31.7" cy="62.4" r="1.9" fill="#ddc5a3" opacity=".55"/><circle cx="23.6" cy="65.7" r="1.9" fill="#ddc5a3" opacity=".55"/><circle cx="20.3" cy="57.6" r="1.9" fill="#ddc5a3" opacity=".55"/><circle cx="28.4" cy="54.3" r="1.9" fill="#ddc5a3" opacity=".55"/><circle cx="26" cy="60" r="10.7" fill="#c9ab84"/><circle cx="32.4" cy="60.8" r="2.1" fill="#ddc5a3"/><circle cx="30.6" cy="64.6" r="2.1" fill="#ddc5a3"/><circle cx="22.8" cy="65.6" r="2.1" fill="#ddc5a3"/><circle cx="19.7" cy="58.3" r="2.1" fill="#ddc5a3"/><circle cx="22.0" cy="54.8" r="2.1" fill="#ddc5a3"/><circle cx="30.0" cy="54.8" r="2.1" fill="#ddc5a3"/><circle cx="29.3" cy="61.4" r="1.6" fill="#ddc5a3" opacity=".55"/><circle cx="23.1" cy="62.2" r="1.6" fill="#ddc5a3" opacity=".55"/><circle cx="25.6" cy="56.5" r="1.6" fill="#ddc5a3" opacity=".55"/><line x1="60" y1="12" x2="116" y2="12" stroke="#d6455a" stroke-width="2" stroke-dasharray="5 4"/><line x1="60" y1="108" x2="116" y2="108" stroke="#d6455a" stroke-width="2" stroke-dasharray="5 4"/><circle cx="127.2" cy="65.1" r="8.5" fill="#ddc5a3"/><circle cx="127.2" cy="65.2" r="8.5" fill="#ddc5a3"/><circle cx="116.0" cy="88.0" r="8.5" fill="#ddc5a3"/><circle cx="93.2" cy="99.2" r="8.5" fill="#ddc5a3"/><circle cx="93.1" cy="99.2" r="8.5" fill="#ddc5a3"/><circle cx="68.3" cy="94.3" r="8.5" fill="#ddc5a3"/><circle cx="68.2" cy="94.2" r="8.5" fill="#ddc5a3"/><circle cx="51.5" cy="75.1" r="8.5" fill="#ddc5a3"/><circle cx="49.8" cy="49.8" r="8.5" fill="#ddc5a3"/><circle cx="49.8" cy="49.7" r="8.5" fill="#ddc5a3"/><circle cx="63.9" cy="28.6" r="8.5" fill="#ddc5a3"/><circle cx="64.0" cy="28.6" r="8.5" fill="#ddc5a3"/><circle cx="88.0" cy="20.4" r="8.5" fill="#ddc5a3"/><circle cx="112.0" cy="28.6" r="8.5" fill="#ddc5a3"/><circle cx="112.1" cy="28.6" r="8.5" fill="#ddc5a3"/><circle cx="126.2" cy="49.7" r="8.5" fill="#ddc5a3"/><circle cx="108.0" cy="68.5" r="8.0" fill="#ddc5a3" opacity=".55"/><circle cx="96.2" cy="80.2" r="8.0" fill="#ddc5a3" opacity=".55"/><circle cx="79.5" cy="80.0" r="8.0" fill="#ddc5a3" opacity=".55"/><circle cx="67.8" cy="68.2" r="8.0" fill="#ddc5a3" opacity=".55"/><circle cx="68.0" cy="51.5" r="8.0" fill="#ddc5a3" opacity=".55"/><circle cx="79.8" cy="39.8" r="8.0" fill="#ddc5a3" opacity=".55"/><circle cx="96.5" cy="40.0" r="8.0" fill="#ddc5a3" opacity=".55"/><circle cx="108.2" cy="51.8" r="8.0" fill="#ddc5a3" opacity=".55"/><circle cx="88" cy="60" r="37.7" fill="#c9ab84"/><circle cx="110.2" cy="54.1" r="8.3" fill="#ddc5a3"/><circle cx="104.3" cy="76.3" r="8.3" fill="#ddc5a3"/><circle cx="82.1" cy="82.2" r="8.3" fill="#ddc5a3"/><circle cx="74.0" cy="78.2" r="8.3" fill="#ddc5a3"/><circle cx="65.2" cy="57.0" r="8.3" fill="#ddc5a3"/><circle cx="68.1" cy="48.5" r="8.3" fill="#ddc5a3"/><circle cx="88.0" cy="37.0" r="8.3" fill="#ddc5a3"/><circle cx="107.9" cy="48.5" r="8.3" fill="#ddc5a3"/><circle cx="99.7" cy="64.9" r="6.8" fill="#ddc5a3" opacity=".55"/><circle cx="83.1" cy="71.7" r="6.8" fill="#ddc5a3" opacity=".55"/><circle cx="76.3" cy="55.1" r="6.8" fill="#ddc5a3" opacity=".55"/><circle cx="92.9" cy="48.3" r="6.8" fill="#ddc5a3" opacity=".55"/></svg>
+            <figcaption>
+              <span class="tag">Sinal de alerta</span>
+              <b>Muito pequeno ou gigante</b>
+              <span class="desc">Fora da faixa ideal — pode indicar problema no desenvolvimento.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </li>
+      <li class="criterion">
+        <div class="crit-head"><span class="crit-num">03</span><h2>Coesão estrutural</h2></div>
+        <div class="crit-pair">
+          <figure class="crit-card is-good">
+            <svg class="art" viewBox="0 0 120 120" role="img" aria-hidden="true"><circle cx="93.2" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="91.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="73.8" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="71.9" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="48.1" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="46.2" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="29.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="26.8" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="27.3" cy="49.2" r="7.4" fill="#ddc5a3"/><circle cx="42.2" cy="30.6" r="7.4" fill="#ddc5a3"/><circle cx="44.0" cy="29.6" r="7.4" fill="#ddc5a3"/><circle cx="67.7" cy="26.5" r="7.4" fill="#ddc5a3"/><circle cx="87.6" cy="39.5" r="7.4" fill="#ddc5a3"/><circle cx="88.8" cy="41.2" r="7.4" fill="#ddc5a3"/><circle cx="77.4" cy="67.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="65.1" cy="78.2" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="48.9" cy="75.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="41.1" cy="60.9" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="47.5" cy="45.8" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="63.3" cy="41.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="76.6" cy="51.0" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="60" cy="60" r="32.8" fill="#c9ab84"/><circle cx="80.0" cy="60.0" r="7.4" fill="#ddc5a3"/><circle cx="68.0" cy="78.3" r="7.4" fill="#ddc5a3"/><circle cx="58.1" cy="79.9" r="7.4" fill="#ddc5a3"/><circle cx="41.0" cy="66.3" r="7.4" fill="#ddc5a3"/><circle cx="40.4" cy="56.2" r="7.4" fill="#ddc5a3"/><circle cx="55.5" cy="40.5" r="7.4" fill="#ddc5a3"/><circle cx="76.1" cy="48.1" r="7.4" fill="#ddc5a3"/><circle cx="70.1" cy="64.3" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="51.2" cy="66.6" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="58.6" cy="49.1" r="5.9" fill="#ddc5a3" opacity=".55"/></svg>
+            <figcaption>
+              <span class="tag">Bom sinal</span>
+              <b>Células unidas</b>
+              <span class="desc">Estrutura coesa, células bem aderidas.</span>
+            </figcaption>
+          </figure>
+          <figure class="crit-card is-bad">
+            <svg class="art" viewBox="0 0 120 120" role="img" aria-hidden="true"><circle cx="84.6" cy="69.1" r="6.4" fill="#ddc5a3"/><circle cx="83.4" cy="72.6" r="6.4" fill="#ddc5a3"/><circle cx="68.6" cy="87.4" r="6.4" fill="#ddc5a3"/><circle cx="65.1" cy="88.6" r="6.4" fill="#ddc5a3"/><circle cx="44.2" cy="85.8" r="6.4" fill="#ddc5a3"/><circle cx="31.4" cy="69.2" r="6.4" fill="#ddc5a3"/><circle cx="30.7" cy="65.6" r="6.4" fill="#ddc5a3"/><circle cx="36.2" cy="45.3" r="6.4" fill="#ddc5a3"/><circle cx="38.6" cy="42.5" r="6.4" fill="#ddc5a3"/><circle cx="58.0" cy="34.5" r="6.4" fill="#ddc5a3"/><circle cx="77.4" cy="42.5" r="6.4" fill="#ddc5a3"/><circle cx="79.8" cy="45.3" r="6.4" fill="#ddc5a3"/><circle cx="71.9" cy="67.9" r="5.4" fill="#ddc5a3" opacity=".55"/><circle cx="59.9" cy="77.0" r="5.4" fill="#ddc5a3" opacity=".55"/><circle cx="45.9" cy="71.1" r="5.4" fill="#ddc5a3" opacity=".55"/><circle cx="44.1" cy="56.1" r="5.4" fill="#ddc5a3" opacity=".55"/><circle cx="56.1" cy="47.0" r="5.4" fill="#ddc5a3" opacity=".55"/><circle cx="70.1" cy="52.9" r="5.4" fill="#ddc5a3" opacity=".55"/><circle cx="58" cy="62" r="26.2" fill="#c9ab84"/><circle cx="73.9" cy="59.9" r="5.1" fill="#ddc5a3"/><circle cx="64.1" cy="76.8" r="5.1" fill="#ddc5a3"/><circle cx="53.8" cy="77.4" r="5.1" fill="#ddc5a3"/><circle cx="42.0" cy="62.0" r="5.1" fill="#ddc5a3"/><circle cx="53.8" cy="46.6" r="5.1" fill="#ddc5a3"/><circle cx="64.1" cy="47.2" r="5.1" fill="#ddc5a3"/><circle cx="66.1" cy="65.4" r="4.6" fill="#ddc5a3" opacity=".55"/><circle cx="51.0" cy="67.3" r="4.6" fill="#ddc5a3" opacity=".55"/><circle cx="56.9" cy="53.3" r="4.6" fill="#ddc5a3" opacity=".55"/><circle cx="18" cy="34" r="7" fill="#ddc5a3"/><circle cx="100" cy="30" r="6" fill="#ddc5a3"/><circle cx="104" cy="84" r="7.5" fill="#ddc5a3"/><circle cx="24" cy="96" r="6.5" fill="#ddc5a3"/><circle cx="12" cy="66" r="5" fill="#ddc5a3"/><circle cx="84" cy="104" r="5.5" fill="#ddc5a3"/><circle cx="46" cy="14" r="5" fill="#ddc5a3"/></svg>
+            <figcaption>
+              <span class="tag">Sinal de alerta</span>
+              <b>Se desmanchando</b>
+              <span class="desc">Células se soltando, fragmentos visíveis, falta de coesão.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </li>
+      <li class="criterion">
+        <div class="crit-head"><span class="crit-num">04</span><h2>Organização interna</h2></div>
+        <div class="crit-pair">
+          <figure class="crit-card is-good">
+            <svg class="art" viewBox="0 0 120 120" role="img" aria-hidden="true"><circle cx="93.2" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="91.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="73.8" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="71.9" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="48.1" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="46.2" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="29.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="26.8" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="27.3" cy="49.2" r="7.4" fill="#ddc5a3"/><circle cx="42.2" cy="30.6" r="7.4" fill="#ddc5a3"/><circle cx="44.0" cy="29.6" r="7.4" fill="#ddc5a3"/><circle cx="67.7" cy="26.5" r="7.4" fill="#ddc5a3"/><circle cx="87.6" cy="39.5" r="7.4" fill="#ddc5a3"/><circle cx="88.8" cy="41.2" r="7.4" fill="#ddc5a3"/><circle cx="77.4" cy="67.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="65.1" cy="78.2" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="48.9" cy="75.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="41.1" cy="60.9" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="47.5" cy="45.8" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="63.3" cy="41.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="76.6" cy="51.0" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="60" cy="60" r="32.8" fill="#c9ab84"/><circle cx="80.0" cy="60.0" r="7.4" fill="#ddc5a3"/><circle cx="68.0" cy="78.3" r="7.4" fill="#ddc5a3"/><circle cx="58.1" cy="79.9" r="7.4" fill="#ddc5a3"/><circle cx="41.0" cy="66.3" r="7.4" fill="#ddc5a3"/><circle cx="40.4" cy="56.2" r="7.4" fill="#ddc5a3"/><circle cx="55.5" cy="40.5" r="7.4" fill="#ddc5a3"/><circle cx="76.1" cy="48.1" r="7.4" fill="#ddc5a3"/><circle cx="70.1" cy="64.3" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="51.2" cy="66.6" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="58.6" cy="49.1" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="60" cy="60" r="27" fill="#cfc4ea"/><circle cx="60" cy="60" r="18" fill="#9a8ad2"/><circle cx="60" cy="60" r="9" fill="#5f56a8"/></svg>
+            <figcaption>
+              <span class="tag">Bom sinal</span>
+              <b>Camada externa definida</b>
+              <span class="desc">Camada externa nítida e estruturas internas organizadas.</span>
+            </figcaption>
+          </figure>
+          <figure class="crit-card is-bad">
+            <svg class="art" viewBox="0 0 120 120" role="img" aria-hidden="true"><circle cx="93.2" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="91.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="73.8" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="71.9" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="48.1" cy="92.3" r="7.4" fill="#ddc5a3"/><circle cx="46.2" cy="91.5" r="7.4" fill="#ddc5a3"/><circle cx="29.0" cy="74.9" r="7.4" fill="#ddc5a3"/><circle cx="26.8" cy="51.2" r="7.4" fill="#ddc5a3"/><circle cx="27.3" cy="49.2" r="7.4" fill="#ddc5a3"/><circle cx="42.2" cy="30.6" r="7.4" fill="#ddc5a3"/><circle cx="44.0" cy="29.6" r="7.4" fill="#ddc5a3"/><circle cx="67.7" cy="26.5" r="7.4" fill="#ddc5a3"/><circle cx="87.6" cy="39.5" r="7.4" fill="#ddc5a3"/><circle cx="88.8" cy="41.2" r="7.4" fill="#ddc5a3"/><circle cx="77.4" cy="67.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="65.1" cy="78.2" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="48.9" cy="75.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="41.1" cy="60.9" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="47.5" cy="45.8" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="63.3" cy="41.4" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="76.6" cy="51.0" r="6.9" fill="#ddc5a3" opacity=".55"/><circle cx="60" cy="60" r="32.8" fill="#c9ab84"/><circle cx="80.0" cy="60.0" r="7.4" fill="#ddc5a3"/><circle cx="68.0" cy="78.3" r="7.4" fill="#ddc5a3"/><circle cx="58.1" cy="79.9" r="7.4" fill="#ddc5a3"/><circle cx="41.0" cy="66.3" r="7.4" fill="#ddc5a3"/><circle cx="40.4" cy="56.2" r="7.4" fill="#ddc5a3"/><circle cx="55.5" cy="40.5" r="7.4" fill="#ddc5a3"/><circle cx="76.1" cy="48.1" r="7.4" fill="#ddc5a3"/><circle cx="70.1" cy="64.3" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="51.2" cy="66.6" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="58.6" cy="49.1" r="5.9" fill="#ddc5a3" opacity=".55"/><circle cx="48" cy="50" r="15" fill="#9a8ad2" opacity=".9"/><circle cx="72" cy="46" r="13" fill="#cfc4ea" opacity=".9"/><circle cx="66" cy="74" r="16" fill="#8a7ab0" opacity=".9"/><circle cx="42" cy="72" r="12" fill="#b3a4d8" opacity=".9"/><circle cx="78" cy="66" r="10" fill="#6f5a41" opacity=".9"/><circle cx="56" cy="60" r="11" fill="#c9ab84" opacity=".9"/></svg>
+            <figcaption>
+              <span class="tag">Sinal de alerta</span>
+              <b>Uma massa bagunçada</b>
+              <span class="desc">Sem camadas definidas, estrutura interna desorganizada ou amorfa.</span>
+            </figcaption>
+          </figure>
+        </div>
+      </li>
+      </ol>
+
+      <p class="guide-note">
+        Nem sempre é óbvio: em vários organoides os próprios especialistas
+        discordaram entre si. Use o plano focal e o gamma para olhar com calma
+        antes de decidir.
+      </p>
+
+      <div class="guide-actions">
+        <button class="btn btn-primary btn-lg" id="guide-start-btn">Entendi, começar o teste</button>
+        <button class="btn btn-ghost" id="guide-back-btn">Voltar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= TELA DO TESTE ======================= -->
+  <section class="screen" id="screen-test">
+    <div class="shell">
+      <div class="test-top">
+        <div class="counter">
+          <span class="k">Organoide</span>
+          <span class="n"><span id="counter-current">1</span><span class="sep">/</span><span id="counter-total">5</span></span>
+        </div>
+        <div class="wells" id="wells" aria-label="Progresso"></div>
+      </div>
+
+      <div class="specimen">
+        <div class="frame">
+          <span class="corner tl"></span><span class="corner tr"></span>
+          <span class="corner bl"></span><span class="corner br"></span>
+          <span class="spec-tag" id="specimen-id">#—</span>
+          <span class="viewer-status" id="viewer-status" hidden></span>
+          <div id="osd-viewport"></div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="control">
+          <span class="lab">Plano focal</span>
+          <div class="segments" id="focus-steps">
+            <button class="focus-step is-active" data-focus="1" aria-pressed="true">1</button>
+            <button class="focus-step" data-focus="2" aria-pressed="false">2</button>
+            <button class="focus-step" data-focus="3" aria-pressed="false">3</button>
+            <button class="focus-step" data-focus="4" aria-pressed="false">4</button>
+            <button class="focus-step" data-focus="5" aria-pressed="false">5</button>
+          </div>
+        </div>
+        <div class="control">
+          <span class="lab">Gamma</span>
+          <label class="switch">
+            <input type="checkbox" id="gamma-toggle" role="switch" aria-checked="false" />
+            <span class="track"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="classify">
+        <button class="verdict accept" id="btn-accept">
+          <span class="glyph">&#10003;</span> Aceitável
+        </button>
+        <button class="verdict reject" id="btn-reject">
+          <span class="glyph">&#10007;</span> Não Aceitável
+        </button>
+      </div>
+      <p class="hint">Sua resposta é registrada e o teste avança automaticamente. O gabarito só aparece no final.</p>
+    </div>
+  </section>
+
+  <!-- ======================= TELA DE RESULTADO ======================= -->
+  <section class="screen" id="screen-result">
+    <div class="shell">
+      <div class="result-head">
+        <p class="eyebrow">Resultado</p>
+        <div class="score" id="score-value" data-tier="mid">0 / 5</div>
+        <div class="score-pct" id="score-pct">0% de acerto</div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Gabarito</div>
+        <table class="gabarito">
+          <thead>
+            <tr>
+              <th>Organoide</th>
+              <th>Sua resposta</th>
+              <th>Especialistas</th>
+              <th>Resultado</th>
+            </tr>
+          </thead>
+          <tbody id="gabarito-body"></tbody>
+        </table>
+      </div>
+
+      <div class="result-actions">
+        <button class="btn btn-primary" id="again-btn">Fazer novamente</button>
+        <button class="btn btn-ghost" id="review-btn" hidden>Revisar erros</button>
+        <button class="btn btn-ghost" id="criteria-btn">Rever critérios</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= TELA DE REVISÃO ======================= -->
+  <section class="screen" id="screen-review">
+    <div class="shell">
+      <div class="review-head">
+        <h2>Revisar erros</h2>
+        <span class="review-counter" id="review-counter">Erro 1 de 1</span>
+      </div>
+
+      <div class="specimen">
+        <div class="frame">
+          <span class="corner tl"></span><span class="corner tr"></span>
+          <span class="corner bl"></span><span class="corner br"></span>
+          <span class="spec-tag" id="review-id">#—</span>
+          <div id="review-viewport"></div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="control">
+          <span class="lab">Plano focal</span>
+          <div class="segments" id="review-focus">
+            <button class="focus-step is-active" data-focus="1">1</button>
+            <button class="focus-step" data-focus="2">2</button>
+            <button class="focus-step" data-focus="3">3</button>
+            <button class="focus-step" data-focus="4">4</button>
+            <button class="focus-step" data-focus="5">5</button>
+          </div>
+        </div>
+        <div class="control">
+          <span class="lab">Gamma</span>
+          <label class="switch">
+            <input type="checkbox" id="review-gamma" role="switch" />
+            <span class="track"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="review-verdicts">
+        <div class="vcard mine"><div class="k">Sua resposta</div><div class="v" id="review-mine">—</div></div>
+        <div class="vcard truth"><div class="k">Especialistas</div><div class="v" id="review-truth">—</div></div>
+      </div>
+
+      <div class="review-nav">
+        <button class="btn btn-ghost" id="review-prev">← Anterior</button>
+        <span class="spacer"></span>
+        <button class="btn btn-ghost" id="review-back">Voltar ao resultado</button>
+        <button class="btn btn-primary" id="review-next">Próximo →</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/viewer.js"></script>
+  <script src="js/game.js"></script>
+</body>
+
+</html>
