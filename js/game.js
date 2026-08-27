@@ -13,11 +13,9 @@ const CONFIG = {
   // Entram no sorteio apenas os casos de consenso (>=4 de 5 votos concordantes).
   // Ficam de fora, com Classification vazia: Uncertain-Good / Uncertain-Bad (3x2 e
   // 2x3), as aquisições de Dy28 (o gabarito é de Dy30) e as sem classificação.
-  // Para voltar ao modo de demonstração (rótulos aleatórios), use:
-  //   csvUrl: "data/organoids.demo.csv",
-  //   demo:   true,
+  // (O antigo organoids.demo.csv, com rótulos aleatórios, foi removido do repo
+  //  para não ser confundido com o gabarito real.)
   csvUrl: "data/organoids.csv",
-  demo: false,
 
   roundSize: 5, // quantos organoides por partida
 
@@ -417,14 +415,15 @@ function setReviewGammaUI(on) {
  * WIRING (eventos)
  * --------------------------------------------------------------------------*/
 window.addEventListener("DOMContentLoaded", () => {
-  // Aviso de modo demonstração
-  $("#demo-banner").hidden = !CONFIG.demo;
-
-  // Tela inicial
+  // Tela inicial -> passa pelo guia de critérios antes do teste
   const startBtn = $("#start-btn");
   startBtn.disabled = true;
   startBtn.textContent = "Carregando dados…";
-  startBtn.addEventListener("click", startRound);
+  startBtn.addEventListener("click", () => setScreen("guide"));
+
+  // Tela do guia
+  $("#guide-start-btn").addEventListener("click", startRound);
+  $("#guide-back-btn").addEventListener("click", () => setScreen("start"));
 
   // Tela do teste — foco
   document.querySelectorAll("#focus-steps .focus-step").forEach((b) => {
@@ -447,6 +446,7 @@ window.addEventListener("DOMContentLoaded", () => {
   // Tela final
   $("#again-btn").addEventListener("click", startRound);
   $("#review-btn").addEventListener("click", startReview);
+  $("#criteria-btn").addEventListener("click", () => setScreen("guide"));
 
   // Tela de revisão
   document.querySelectorAll("#review-focus .focus-step").forEach((b) => {
