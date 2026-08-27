@@ -1,0 +1,427 @@
+ID Organoide Form,ID Organoide Placa,Classification,Votos Acceptable,Votos Not Acceptable,Consenso especialistas,Excluido porque
+Organoid_Acq1,Ba1 96_1 Dy30 H1,,0,0,,sem classificacao no gabarito
+Organoid_Acq2,Ba2 96_1 Dy30 C6,,0,0,,sem classificacao no gabarito
+Organoid_Acq3,Ba2 96_1 Dy30 E4,,0,0,,sem classificacao no gabarito
+Organoid_Acq4,Ba2 96_2 Dy30 B4,,0,0,,sem classificacao no gabarito
+Organoid_Acq5,Ba2 96_2 Dy30 D12-2-%(stitched),Acceptable,5,0,Good,
+Organoid_1,Ba1 96_1 Dy28 A2,,4,1,Good,Dy28 (gabarito e de Dy30)
+Organoid_2,Ba1 96_1 Dy28 A8,,1,4,Bad,Dy28 (gabarito e de Dy30)
+Organoid_3,Ba1 96_1 Dy28 D4,,3,2,Uncertain-Good,Dy28 (gabarito e de Dy30)
+Organoid_4,Ba1 96_1 Dy28 E10,,4,1,Good,Dy28 (gabarito e de Dy30)
+Organoid_5,Ba1 96_1 Dy28 F12,,4,1,Good,Dy28 (gabarito e de Dy30)
+Organoid_6,Ba1 96_1 Dy28 G11,,4,1,Good,Dy28 (gabarito e de Dy30)
+Organoid_7,Ba1 96_1 Dy30 A1,Acceptable,4,1,Good,
+Organoid_8,Ba1 96_1 Dy30 A10,Acceptable,5,0,Good,
+Organoid_9,Ba1 96_1 Dy30 A11,Acceptable,5,0,Good,
+Organoid_10,Ba1 96_1 Dy30 A12,Acceptable,4,1,Good,
+Organoid_11,Ba1 96_1 Dy30 A2,Acceptable,4,1,Good,
+Organoid_12,Ba1 96_1 Dy30 A3,Acceptable,5,0,Good,
+Organoid_13,Ba1 96_1 Dy30 A4,Acceptable,5,0,Good,
+Organoid_14,Ba1 96_1 Dy30 A5,Acceptable,5,0,Good,
+Organoid_15,Ba1 96_1 Dy30 A6,Acceptable,5,0,Good,
+Organoid_16,Ba1 96_1 Dy30 A7,Acceptable,5,0,Good,
+Organoid_17,Ba1 96_1 Dy30 A8 INV,Not Acceptable,1,4,Bad,
+Organoid_18,Ba1 96_1 Dy30 A8,Not Acceptable,1,4,Bad,
+Organoid_19,Ba1 96_1 Dy30 A9,Acceptable,5,0,Good,
+Organoid_20,Ba1 96_1 Dy30 B1,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_21,Ba1 96_1 Dy30 B10,Acceptable,5,0,Good,
+Organoid_22,Ba1 96_1 Dy30 B11,Acceptable,5,0,Good,
+Organoid_23,Ba1 96_1 Dy30 B12,Not Acceptable,1,4,Bad,
+Organoid_24,Ba1 96_1 Dy30 B2,Acceptable,5,0,Good,
+Organoid_25,Ba1 96_1 Dy30 B3,Acceptable,4,1,Good,
+Organoid_26,Ba1 96_1 Dy30 B4 INV,Acceptable,5,0,Good,
+Organoid_27,Ba1 96_1 Dy30 B4,Acceptable,5,0,Good,
+Organoid_28,Ba1 96_1 Dy30 B5,Acceptable,5,0,Good,
+Organoid_29,Ba1 96_1 Dy30 B6,Acceptable,5,0,Good,
+Organoid_30,Ba1 96_1 Dy30 B7,Acceptable,4,1,Good,
+Organoid_31,Ba1 96_1 Dy30 B8,Acceptable,4,1,Good,
+Organoid_32,Ba1 96_1 Dy30 B9,Acceptable,5,0,Good,
+Organoid_33,Ba1 96_1 Dy30 C1,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_34,Ba1 96_1 Dy30 C10 INV,Acceptable,5,0,Good,
+Organoid_35,Ba1 96_1 Dy30 C10,Acceptable,5,0,Good,
+Organoid_36,Ba1 96_1 Dy30 C11 INV,Acceptable,5,0,Good,
+Organoid_37,Ba1 96_1 Dy30 C11,Acceptable,5,0,Good,
+Organoid_38,Ba1 96_1 Dy30 C12,Acceptable,5,0,Good,
+Organoid_39,Ba1 96_1 Dy30 C2,Acceptable,4,1,Good,
+Organoid_40,Ba1 96_1 Dy30 C3,Acceptable,5,0,Good,
+Organoid_41,Ba1 96_1 Dy30 C4,Acceptable,4,1,Good,
+Organoid_42,Ba1 96_1 Dy30 C5,Acceptable,5,0,Good,
+Organoid_43,Ba1 96_1 Dy30 C6,Acceptable,4,1,Good,
+Organoid_44,Ba1 96_1 Dy30 C7,Not Acceptable,1,4,Bad,
+Organoid_45,Ba1 96_1 Dy30 C8,Acceptable,5,0,Good,
+Organoid_46,Ba1 96_1 Dy30 D1,Not Acceptable,0,5,Bad,
+Organoid_47,Ba1 96_1 Dy30 D10,Acceptable,5,0,Good,
+Organoid_48,Ba1 96_1 Dy30 D11 INV,Acceptable,5,0,Good,
+Organoid_49,Ba1 96_1 Dy30 D11,Acceptable,5,0,Good,
+Organoid_50,Ba1 96_1 Dy30 D12,Acceptable,5,0,Good,
+Organoid_51,Ba1 96_1 Dy30 D2,Acceptable,5,0,Good,
+Organoid_52,Ba1 96_1 Dy30 D3,Acceptable,5,0,Good,
+Organoid_53,Ba1 96_1 Dy30 D4,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_54,Ba1 96_1 Dy30 D5,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_55,Ba1 96_1 Dy30 D6,Acceptable,5,0,Good,
+Organoid_56,Ba1 96_1 Dy30 D7,Acceptable,4,1,Good,
+Organoid_57,Ba1 96_1 Dy30 D8,Acceptable,4,1,Good,
+Organoid_58,Ba1 96_1 Dy30 D9,Acceptable,4,1,Good,
+Organoid_59,Ba1 96_1 Dy30 E1,Acceptable,5,0,Good,
+Organoid_60,Ba1 96_1 Dy30 E10,Acceptable,4,1,Good,
+Organoid_61,Ba1 96_1 Dy30 E11,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_62,Ba1 96_1 Dy30 E12,Acceptable,4,1,Good,
+Organoid_63,Ba1 96_1 Dy30 E2,Acceptable,5,0,Good,
+Organoid_64,Ba1 96_1 Dy30 E3,Acceptable,4,1,Good,
+Organoid_65,Ba1 96_1 Dy30 E4,Acceptable,5,0,Good,
+Organoid_66,Ba1 96_1 Dy30 E5,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_67,Ba1 96_1 Dy30 E6,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_68,Ba1 96_1 Dy30 E7,Acceptable,5,0,Good,
+Organoid_69,Ba1 96_1 Dy30 E9,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_70,Ba1 96_1 Dy30 F1,Acceptable,4,1,Good,
+Organoid_71,Ba1 96_1 Dy30 F10,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_72,Ba1 96_1 Dy30 F11,Acceptable,5,0,Good,
+Organoid_73,Ba1 96_1 Dy30 F12,Acceptable,4,1,Good,
+Organoid_74,Ba1 96_1 Dy30 F2,Acceptable,4,1,Good,
+Organoid_75,Ba1 96_1 Dy30 F3,Acceptable,5,0,Good,
+Organoid_76,Ba1 96_1 Dy30 F4,Acceptable,4,1,Good,
+Organoid_77,Ba1 96_1 Dy30 F5,Acceptable,5,0,Good,
+Organoid_78,Ba1 96_1 Dy30 F6,Acceptable,4,1,Good,
+Organoid_79,Ba1 96_1 Dy30 F7,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_80,Ba1 96_1 Dy30 F8,Acceptable,5,0,Good,
+Organoid_81,Ba1 96_1 Dy30 F9,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_82,Ba1 96_1 Dy30 G1,Not Acceptable,0,5,Bad,
+Organoid_83,Ba1 96_1 Dy30 G10,Acceptable,5,0,Good,
+Organoid_84,Ba1 96_1 Dy30 G11,Acceptable,4,1,Good,
+Organoid_85,Ba1 96_1 Dy30 G12,Acceptable,5,0,Good,
+Organoid_86,Ba1 96_1 Dy30 G2,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_87,Ba1 96_1 Dy30 G3 INV,Acceptable,5,0,Good,
+Organoid_88,Ba1 96_1 Dy30 G3,Acceptable,5,0,Good,
+Organoid_89,Ba1 96_1 Dy30 G5,Acceptable,5,0,Good,
+Organoid_90,Ba1 96_1 Dy30 G6,Acceptable,5,0,Good,
+Organoid_91,Ba1 96_1 Dy30 G7,Acceptable,5,0,Good,
+Organoid_92,Ba1 96_1 Dy30 G8,Acceptable,5,0,Good,
+Organoid_93,Ba1 96_1 Dy30 G9 INV,Acceptable,4,1,Good,
+Organoid_94,Ba1 96_1 Dy30 G9,Acceptable,4,1,Good,
+Organoid_95,Ba1 96_1 Dy30 H10,Acceptable,5,0,Good,
+Organoid_96,Ba1 96_1 Dy30 H11,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_97,Ba1 96_1 Dy30 H12,Acceptable,4,1,Good,
+Organoid_98,Ba1 96_1 Dy30 H2,Acceptable,5,0,Good,
+Organoid_99,Ba1 96_1 Dy30 H3,Acceptable,5,0,Good,
+Organoid_100,Ba1 96_1 Dy30 H4,Acceptable,4,1,Good,
+Organoid_101,Ba1 96_1 Dy30 H5,Acceptable,4,1,Good,
+Organoid_102,Ba1 96_1 Dy30 H6,Acceptable,5,0,Good,
+Organoid_103,Ba1 96_1 Dy30 H7,Acceptable,5,0,Good,
+Organoid_104,Ba1 96_1 Dy30 H8,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_105,Ba1 96_1 Dy30 H9,Acceptable,4,1,Good,
+Organoid_106,Ba2 96_1 Dy28 A7,,5,0,Good,Dy28 (gabarito e de Dy30)
+Organoid_107,Ba2 96_1 Dy28 C11,,5,0,Good,Dy28 (gabarito e de Dy30)
+Organoid_108,Ba2 96_1 Dy28 D10(1)%,,1,4,Bad,Dy28 (gabarito e de Dy30)
+Organoid_109,Ba2 96_1 Dy28 D3,,5,0,Good,Dy28 (gabarito e de Dy30)
+Organoid_110,Ba2 96_1 Dy28 E7(1)%,,5,0,Good,Dy28 (gabarito e de Dy30)
+Organoid_111,Ba2 96_1 Dy28 G10,,3,2,Uncertain-Good,Dy28 (gabarito e de Dy30)
+Organoid_112,Ba2 96_1 Dy30 A10,Acceptable,4,1,Good,
+Organoid_113,Ba2 96_1 Dy30 A11,Acceptable,5,0,Good,
+Organoid_114,Ba2 96_1 Dy30 A12(stitched),Not Acceptable,0,5,Bad,
+Organoid_115,Ba2 96_1 Dy30 A2,Acceptable,5,0,Good,
+Organoid_116,Ba2 96_1 Dy30 A3,Acceptable,5,0,Good,
+Organoid_117,Ba2 96_1 Dy30 A4,Acceptable,4,1,Good,
+Organoid_118,Ba2 96_1 Dy30 A5(stitched),Not Acceptable,1,4,Bad,
+Organoid_119,Ba2 96_1 Dy30 A6 INV,Acceptable,5,0,Good,
+Organoid_120,Ba2 96_1 Dy30 A6,Acceptable,5,0,Good,
+Organoid_121,Ba2 96_1 Dy30 A7,Acceptable,5,0,Good,
+Organoid_122,Ba2 96_1 Dy30 A8,Acceptable,5,0,Good,
+Organoid_123,Ba2 96_1 Dy30 B1,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_124,Ba2 96_1 Dy30 B10,Acceptable,5,0,Good,
+Organoid_125,Ba2 96_1 Dy30 B11,Acceptable,5,0,Good,
+Organoid_126,Ba2 96_1 Dy30 B2,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_127,Ba2 96_1 Dy30 B3 INV,Not Acceptable,0,5,Bad,
+Organoid_128,Ba2 96_1 Dy30 B3,Not Acceptable,0,5,Bad,
+Organoid_129,Ba2 96_1 Dy30 B4(stitched),Acceptable,4,1,Good,
+Organoid_130,Ba2 96_1 Dy30 B5,Acceptable,4,1,Good,
+Organoid_131,Ba2 96_1 Dy30 B6,Acceptable,5,0,Good,
+Organoid_132,Ba2 96_1 Dy30 B7(#)%,Acceptable,4,1,Good,
+Organoid_133,Ba2 96_1 Dy30 B8(#)%,Not Acceptable,0,5,Bad,
+Organoid_134,Ba2 96_1 Dy30 B9(stitched)#%,Acceptable,4,1,Good,
+Organoid_135,Ba2 96_1 Dy30 C1(1)%,Not Acceptable,0,5,Bad,
+Organoid_136,Ba2 96_1 Dy30 C1(2)%,Not Acceptable,0,5,Bad,
+Organoid_137,Ba2 96_1 Dy30 C10,Acceptable,5,0,Good,
+Organoid_138,Ba2 96_1 Dy30 C11,Acceptable,5,0,Good,
+Organoid_139,Ba2 96_1 Dy30 C12,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_140,Ba2 96_1 Dy30 C2,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_141,Ba2 96_1 Dy30 C3,Acceptable,5,0,Good,
+Organoid_142,Ba2 96_1 Dy30 C4,Acceptable,5,0,Good,
+Organoid_143,Ba2 96_1 Dy30 C5(stitched),,3,2,Uncertain-Good,Uncertain-Good
+Organoid_144,Ba2 96_1 Dy30 C7(stitched),Acceptable,4,1,Good,
+Organoid_145,Ba2 96_1 Dy30 C8,Acceptable,5,0,Good,
+Organoid_146,Ba2 96_1 Dy30 C9,Acceptable,5,0,Good,
+Organoid_147,Ba2 96_1 Dy30 D1,Acceptable,5,0,Good,
+Organoid_148,Ba2 96_1 Dy30 D10(1)%,Not Acceptable,1,4,Bad,
+Organoid_149,Ba2 96_1 Dy30 D10(2)%,Not Acceptable,1,4,Bad,
+Organoid_150,Ba2 96_1 Dy30 D11 INV,Acceptable,5,0,Good,
+Organoid_151,Ba2 96_1 Dy30 D11,Acceptable,5,0,Good,
+Organoid_152,Ba2 96_1 Dy30 D12,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_153,Ba2 96_1 Dy30 D2,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_154,Ba2 96_1 Dy30 D3 INV,Acceptable,5,0,Good,
+Organoid_155,Ba2 96_1 Dy30 D3,Acceptable,5,0,Good,
+Organoid_156,Ba2 96_1 Dy30 D4(stitched),Acceptable,5,0,Good,
+Organoid_157,Ba2 96_1 Dy30 D5,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_158,Ba2 96_1 Dy30 D6,Acceptable,4,1,Good,
+Organoid_159,Ba2 96_1 Dy30 D7(stitched),,3,2,Uncertain-Good,Uncertain-Good
+Organoid_160,Ba2 96_1 Dy30 D8,Not Acceptable,1,4,Bad,
+Organoid_161,Ba2 96_1 Dy30 D9,Acceptable,5,0,Good,
+Organoid_162,Ba2 96_1 Dy30 E1(1)%,Acceptable,4,1,Good,
+Organoid_163,Ba2 96_1 Dy30 E1(2)%,Acceptable,4,1,Good,
+Organoid_164,Ba2 96_1 Dy30 E10,Acceptable,5,0,Good,
+Organoid_165,Ba2 96_1 Dy30 E11,Acceptable,5,0,Good,
+Organoid_166,Ba2 96_1 Dy30 E12,Not Acceptable,1,4,Bad,
+Organoid_167,Ba2 96_1 Dy30 E2,Acceptable,5,0,Good,
+Organoid_168,Ba2 96_1 Dy30 E3,Not Acceptable,0,5,Bad,
+Organoid_169,Ba2 96_1 Dy30 E5 INV,Acceptable,5,0,Good,
+Organoid_170,Ba2 96_1 Dy30 E5,Acceptable,5,0,Good,
+Organoid_171,Ba2 96_1 Dy30 E6,Acceptable,5,0,Good,
+Organoid_172,Ba2 96_1 Dy30 E7(1)%,Acceptable,5,0,Good,
+Organoid_173,Ba2 96_1 Dy30 E7(2)%,Acceptable,5,0,Good,
+Organoid_174,Ba2 96_1 Dy30 E8(1)%,Not Acceptable,0,5,Bad,
+Organoid_175,Ba2 96_1 Dy30 E8(2)%,Not Acceptable,0,5,Bad,
+Organoid_176,Ba2 96_1 Dy30 E9(stitched),Not Acceptable,1,4,Bad,
+Organoid_177,Ba2 96_1 Dy30 F1,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_178,Ba2 96_1 Dy30 F10,Acceptable,4,1,Good,
+Organoid_179,Ba2 96_1 Dy30 F11,Acceptable,4,1,Good,
+Organoid_180,Ba2 96_1 Dy30 F12,Acceptable,5,0,Good,
+Organoid_181,Ba2 96_1 Dy30 F2,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_182,Ba2 96_1 Dy30 F3 INV,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_183,Ba2 96_1 Dy30 F3,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_184,Ba2 96_1 Dy30 F4,Acceptable,5,0,Good,
+Organoid_185,Ba2 96_1 Dy30 F5,Acceptable,4,1,Good,
+Organoid_186,Ba2 96_1 Dy30 F6,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_187,Ba2 96_1 Dy30 F7,Not Acceptable,1,4,Bad,
+Organoid_188,Ba2 96_1 Dy30 F8,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_189,Ba2 96_1 Dy30 F9,Acceptable,5,0,Good,
+Organoid_190,Ba2 96_1 Dy30 G1,Acceptable,5,0,Good,
+Organoid_191,Ba2 96_1 Dy30 G10,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_192,Ba2 96_1 Dy30 G11,Acceptable,5,0,Good,
+Organoid_193,Ba2 96_1 Dy30 G12,Acceptable,4,1,Good,
+Organoid_194,Ba2 96_1 Dy30 G2,Acceptable,5,0,Good,
+Organoid_195,Ba2 96_1 Dy30 G3,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_196,Ba2 96_1 Dy30 G4(stitched),Not Acceptable,0,5,Bad,
+Organoid_197,Ba2 96_1 Dy30 G5,Not Acceptable,1,4,Bad,
+Organoid_198,Ba2 96_1 Dy30 G6,Acceptable,4,1,Good,
+Organoid_199,Ba2 96_1 Dy30 G7,Acceptable,4,1,Good,
+Organoid_200,Ba2 96_1 Dy30 G8(stitched),Acceptable,5,0,Good,
+Organoid_201,Ba2 96_1 Dy30 G9,Acceptable,4,1,Good,
+Organoid_202,Ba2 96_1 Dy30 H1,Acceptable,5,0,Good,
+Organoid_203,Ba2 96_1 Dy30 H10,Acceptable,5,0,Good,
+Organoid_204,Ba2 96_1 Dy30 H11,Acceptable,4,1,Good,
+Organoid_205,Ba2 96_1 Dy30 H2,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_206,Ba2 96_1 Dy30 H3 INV,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_207,Ba2 96_1 Dy30 H3,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_208,Ba2 96_1 Dy30 H4,Acceptable,5,0,Good,
+Organoid_209,Ba2 96_1 Dy30 H5,Acceptable,5,0,Good,
+Organoid_210,Ba2 96_1 Dy30 H6(#)%,Acceptable,5,0,Good,
+Organoid_211,Ba2 96_1 Dy30 H7,Acceptable,5,0,Good,
+Organoid_212,Ba2 96_1 Dy30 H8(stitched),,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_213,Ba2 96_1 Dy30 H9,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_214,Ba2 96_2 Dy28 A3,,5,0,Good,Dy28 (gabarito e de Dy30)
+Organoid_215,Ba2 96_2 Dy28 A5,,3,2,Uncertain-Good,Dy28 (gabarito e de Dy30)
+Organoid_216,Ba2 96_2 Dy28 B12,,4,1,Good,Dy28 (gabarito e de Dy30)
+Organoid_217,Ba2 96_2 Dy28 D7(2)%,,4,1,Good,Dy28 (gabarito e de Dy30)
+Organoid_218,Ba2 96_2 Dy28 E8,,5,0,Good,Dy28 (gabarito e de Dy30)
+Organoid_219,Ba2 96_2 Dy28 G1,,5,0,Good,Dy28 (gabarito e de Dy30)
+Organoid_220,Ba2 96_2 Dy30 A11,Acceptable,5,0,Good,
+Organoid_221,Ba2 96_2 Dy30 A2 INV,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_222,Ba2 96_2 Dy30 A2,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_223,Ba2 96_2 Dy30 A3,Acceptable,5,0,Good,
+Organoid_224,Ba2 96_2 Dy30 A4(stitched),,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_225,Ba2 96_2 Dy30 A5,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_226,Ba2 96_2 Dy30 A6,Not Acceptable,1,4,Bad,
+Organoid_227,Ba2 96_2 Dy30 A7,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_228,Ba2 96_2 Dy30 A9,Acceptable,4,1,Good,
+Organoid_229,Ba2 96_2 Dy30 B1,Acceptable,5,0,Good,
+Organoid_230,Ba2 96_2 Dy30 B10 INV,Acceptable,5,0,Good,
+Organoid_231,Ba2 96_2 Dy30 B10,Acceptable,5,0,Good,
+Organoid_232,Ba2 96_2 Dy30 B11,Acceptable,5,0,Good,
+Organoid_233,Ba2 96_2 Dy30 B12,Acceptable,4,1,Good,
+Organoid_234,Ba2 96_2 Dy30 B2(#)%,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_235,Ba2 96_2 Dy30 B3(1)%,Not Acceptable,1,4,Bad,
+Organoid_236,Ba2 96_2 Dy30 B3(2)%,Not Acceptable,1,4,Bad,
+Organoid_237,Ba2 96_2 Dy30 B5(1)%,Acceptable,4,1,Good,
+Organoid_238,Ba2 96_2 Dy30 B5(2)%,Acceptable,4,1,Good,
+Organoid_239,Ba2 96_2 Dy30 B6,Acceptable,5,0,Good,
+Organoid_240,Ba2 96_2 Dy30 B7,Acceptable,5,0,Good,
+Organoid_241,Ba2 96_2 Dy30 B8(1)% INV,Not Acceptable,0,5,Bad,
+Organoid_242,Ba2 96_2 Dy30 B8(1)%,Not Acceptable,0,5,Bad,
+Organoid_243,Ba2 96_2 Dy30 B8(2)%,Not Acceptable,0,5,Bad,
+Organoid_244,Ba2 96_2 Dy30 B9,Acceptable,5,0,Good,
+Organoid_245,Ba2 96_2 Dy30 C1,Acceptable,5,0,Good,
+Organoid_246,Ba2 96_2 Dy30 C10,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_247,Ba2 96_2 Dy30 C11,Acceptable,5,0,Good,
+Organoid_248,Ba2 96_2 Dy30 C2,Not Acceptable,1,4,Bad,
+Organoid_249,Ba2 96_2 Dy30 C3,Not Acceptable,0,5,Bad,
+Organoid_250,Ba2 96_2 Dy30 C4,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_251,Ba2 96_2 Dy30 C5,Acceptable,5,0,Good,
+Organoid_252,Ba2 96_2 Dy30 C6(stitched),Not Acceptable,1,4,Bad,
+Organoid_253,Ba2 96_2 Dy30 C7,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_254,Ba2 96_2 Dy30 C8(1)%,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_255,Ba2 96_2 Dy30 C8(2)%,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_256,Ba2 96_2 Dy30 C9,Acceptable,5,0,Good,
+Organoid_257,Ba2 96_2 Dy30 D10,Acceptable,5,0,Good,
+Organoid_258,Ba2 96_2 Dy30 D11(#)%,Acceptable,4,1,Good,
+Organoid_259,Ba2 96_2 Dy30 D12(1)%,Acceptable,5,0,Good,
+Organoid_260,Ba2 96_2 Dy30 D2,Not Acceptable,1,4,Bad,
+Organoid_261,Ba2 96_2 Dy30 D3,Not Acceptable,1,4,Bad,
+Organoid_262,Ba2 96_2 Dy30 D4 INV,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_263,Ba2 96_2 Dy30 D4,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_264,Ba2 96_2 Dy30 D5(1)%,Not Acceptable,0,5,Bad,
+Organoid_265,Ba2 96_2 Dy30 D5(2)%,Not Acceptable,0,5,Bad,
+Organoid_266,Ba2 96_2 Dy30 D6,Acceptable,4,1,Good,
+Organoid_267,Ba2 96_2 Dy30 D7(1)%,Acceptable,4,1,Good,
+Organoid_268,Ba2 96_2 Dy30 D7(2)%,Acceptable,4,1,Good,
+Organoid_269,Ba2 96_2 Dy30 D9,Acceptable,4,1,Good,
+Organoid_270,Ba2 96_2 Dy30 E1(stitched),Acceptable,4,1,Good,
+Organoid_271,Ba2 96_2 Dy30 E10,Acceptable,5,0,Good,
+Organoid_272,Ba2 96_2 Dy30 E11,Acceptable,5,0,Good,
+Organoid_273,Ba2 96_2 Dy30 E12(stitched),Not Acceptable,1,4,Bad,
+Organoid_274,Ba2 96_2 Dy30 E3(1)%,Not Acceptable,1,4,Bad,
+Organoid_275,Ba2 96_2 Dy30 E3(2)% INV,Not Acceptable,1,4,Bad,
+Organoid_276,Ba2 96_2 Dy30 E3(2)%,Not Acceptable,1,4,Bad,
+Organoid_277,Ba2 96_2 Dy30 E4,Acceptable,5,0,Good,
+Organoid_278,Ba2 96_2 Dy30 E6 INV,Acceptable,5,0,Good,
+Organoid_279,Ba2 96_2 Dy30 E6,Acceptable,5,0,Good,
+Organoid_280,Ba2 96_2 Dy30 E7,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_281,Ba2 96_2 Dy30 E8,Acceptable,5,0,Good,
+Organoid_282,Ba2 96_2 Dy30 E9,Not Acceptable,1,4,Bad,
+Organoid_283,Ba2 96_2 Dy30 F1,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_284,Ba2 96_2 Dy30 F11,Acceptable,4,1,Good,
+Organoid_285,Ba2 96_2 Dy30 F12,Not Acceptable,0,5,Bad,
+Organoid_286,Ba2 96_2 Dy30 F2(stitched),,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_287,Ba2 96_2 Dy30 F3,Acceptable,4,1,Good,
+Organoid_288,Ba2 96_2 Dy30 F5(stitched),Acceptable,5,0,Good,
+Organoid_289,Ba2 96_2 Dy30 F6,Acceptable,4,1,Good,
+Organoid_290,Ba2 96_2 Dy30 F7,Not Acceptable,1,4,Bad,
+Organoid_291,Ba2 96_2 Dy30 G1,Acceptable,5,0,Good,
+Organoid_292,Ba2 96_2 Dy30 G10,Acceptable,5,0,Good,
+Organoid_293,Ba2 96_2 Dy30 G11,Acceptable,4,1,Good,
+Organoid_294,Ba2 96_2 Dy30 G2,Acceptable,5,0,Good,
+Organoid_295,Ba2 96_2 Dy30 G3,Acceptable,4,1,Good,
+Organoid_296,Ba2 96_2 Dy30 G4,Not Acceptable,1,4,Bad,
+Organoid_297,Ba2 96_2 Dy30 G5,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_298,Ba2 96_2 Dy30 G6,Not Acceptable,1,4,Bad,
+Organoid_299,Ba2 96_2 Dy30 G7,Not Acceptable,1,4,Bad,
+Organoid_300,Ba2 96_2 Dy30 G8,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_301,Ba2 96_2 Dy30 G9,Not Acceptable,0,5,Bad,
+Organoid_302,Ba2 96_2 Dy30 H1,Acceptable,4,1,Good,
+Organoid_303,Ba2 96_2 Dy30 H10(stitched),Acceptable,4,1,Good,
+Organoid_304,Ba2 96_2 Dy30 H11,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_305,Ba2 96_2 Dy30 H2(stitched),Not Acceptable,0,5,Bad,
+Organoid_306,Ba2 96_2 Dy30 H3 INV,Acceptable,5,0,Good,
+Organoid_307,Ba2 96_2 Dy30 H3,Acceptable,5,0,Good,
+Organoid_308,Ba2 96_2 Dy30 H5,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_309,Ba2 96_2 Dy30 H6(stitched),Acceptable,4,1,Good,
+Organoid_310,Ba2 96_2 Dy30 H7,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_311,Ba2 96_2 Dy30 H8(stitched),Acceptable,4,1,Good,
+Organoid_312,Ba2 96_2 Dy30 H9,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_313,Ba4 96_1 Dy28 B6,,3,2,Uncertain-Good,Dy28 (gabarito e de Dy30)
+Organoid_314,Ba4 96_1 Dy28 B9,,4,1,Good,Dy28 (gabarito e de Dy30)
+Organoid_315,Ba4 96_1 Dy28 E11,,3,2,Uncertain-Good,Dy28 (gabarito e de Dy30)
+Organoid_316,Ba4 96_1 Dy28 E6,,0,5,Bad,Dy28 (gabarito e de Dy30)
+Organoid_317,Ba4 96_1 Dy28 F7,,5,0,Good,Dy28 (gabarito e de Dy30)
+Organoid_318,Ba4 96_1 Dy28 F8,,2,3,Uncertain-Bad,Dy28 (gabarito e de Dy30)
+Organoid_319,Ba4 96_1 Dy30 A10,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_320,Ba4 96_1 Dy30 A11 INV,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_321,Ba4 96_1 Dy30 A11,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_322,Ba4 96_1 Dy30 A12,Acceptable,4,1,Good,
+Organoid_323,Ba4 96_1 Dy30 A2,Not Acceptable,0,5,Bad,
+Organoid_324,Ba4 96_1 Dy30 A3,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_325,Ba4 96_1 Dy30 A4 INV,Not Acceptable,0,5,Bad,
+Organoid_326,Ba4 96_1 Dy30 A4,Not Acceptable,0,5,Bad,
+Organoid_327,Ba4 96_1 Dy30 A5,Not Acceptable,0,5,Bad,
+Organoid_328,Ba4 96_1 Dy30 A6,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_329,Ba4 96_1 Dy30 A7,Not Acceptable,1,4,Bad,
+Organoid_330,Ba4 96_1 Dy30 A8,Not Acceptable,1,4,Bad,
+Organoid_331,Ba4 96_1 Dy30 A9,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_332,Ba4 96_1 Dy30 B1,Not Acceptable,1,4,Bad,
+Organoid_333,Ba4 96_1 Dy30 B10,Not Acceptable,0,5,Bad,
+Organoid_334,Ba4 96_1 Dy30 B11,Not Acceptable,1,4,Bad,
+Organoid_335,Ba4 96_1 Dy30 B12,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_336,Ba4 96_1 Dy30 B2,Not Acceptable,1,4,Bad,
+Organoid_337,Ba4 96_1 Dy30 B3,Acceptable,4,1,Good,
+Organoid_338,Ba4 96_1 Dy30 B4,Not Acceptable,1,4,Bad,
+Organoid_339,Ba4 96_1 Dy30 B5,Not Acceptable,1,4,Bad,
+Organoid_340,Ba4 96_1 Dy30 B6,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_341,Ba4 96_1 Dy30 B7,Acceptable,4,1,Good,
+Organoid_342,Ba4 96_1 Dy30 B8,Not Acceptable,1,4,Bad,
+Organoid_343,Ba4 96_1 Dy30 B9,Acceptable,4,1,Good,
+Organoid_344,Ba4 96_1 Dy30 C1,Not Acceptable,1,4,Bad,
+Organoid_345,Ba4 96_1 Dy30 C10,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_346,Ba4 96_1 Dy30 C11,Not Acceptable,1,4,Bad,
+Organoid_347,Ba4 96_1 Dy30 C12(1)%,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_348,Ba4 96_1 Dy30 C12(2)%,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_349,Ba4 96_1 Dy30 C2,Acceptable,5,0,Good,
+Organoid_350,Ba4 96_1 Dy30 C3,Acceptable,4,1,Good,
+Organoid_351,Ba4 96_1 Dy30 C4,Acceptable,5,0,Good,
+Organoid_352,Ba4 96_1 Dy30 C5,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_353,Ba4 96_1 Dy30 C6,Not Acceptable,0,5,Bad,
+Organoid_354,Ba4 96_1 Dy30 C7,Not Acceptable,0,5,Bad,
+Organoid_355,Ba4 96_1 Dy30 C8,Not Acceptable,0,5,Bad,
+Organoid_356,Ba4 96_1 Dy30 C9,Acceptable,5,0,Good,
+Organoid_357,Ba4 96_1 Dy30 D1,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_358,Ba4 96_1 Dy30 D10,Acceptable,4,1,Good,
+Organoid_359,Ba4 96_1 Dy30 D11,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_360,Ba4 96_1 Dy30 D12,Acceptable,5,0,Good,
+Organoid_361,Ba4 96_1 Dy30 D2 INV,Not Acceptable,1,4,Bad,
+Organoid_362,Ba4 96_1 Dy30 D2,Not Acceptable,1,4,Bad,
+Organoid_363,Ba4 96_1 Dy30 D3,Acceptable,4,1,Good,
+Organoid_364,Ba4 96_1 Dy30 D4,Acceptable,5,0,Good,
+Organoid_365,Ba4 96_1 Dy30 D5,Acceptable,4,1,Good,
+Organoid_366,Ba4 96_1 Dy30 D6,Not Acceptable,0,5,Bad,
+Organoid_367,Ba4 96_1 Dy30 D7(stitched),,3,2,Uncertain-Good,Uncertain-Good
+Organoid_368,Ba4 96_1 Dy30 D8,Not Acceptable,0,5,Bad,
+Organoid_369,Ba4 96_1 Dy30 D9,Acceptable,4,1,Good,
+Organoid_370,Ba4 96_1 Dy30 E1,Not Acceptable,1,4,Bad,
+Organoid_371,Ba4 96_1 Dy30 E10,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_372,Ba4 96_1 Dy30 E11,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_373,Ba4 96_1 Dy30 E12,Acceptable,4,1,Good,
+Organoid_374,Ba4 96_1 Dy30 E2,Not Acceptable,1,4,Bad,
+Organoid_375,Ba4 96_1 Dy30 E3 INV,Not Acceptable,1,4,Bad,
+Organoid_376,Ba4 96_1 Dy30 E3,Not Acceptable,1,4,Bad,
+Organoid_377,Ba4 96_1 Dy30 E4,Not Acceptable,0,5,Bad,
+Organoid_378,Ba4 96_1 Dy30 E5,Not Acceptable,0,5,Bad,
+Organoid_379,Ba4 96_1 Dy30 E6,Not Acceptable,0,5,Bad,
+Organoid_380,Ba4 96_1 Dy30 E7,Not Acceptable,1,4,Bad,
+Organoid_381,Ba4 96_1 Dy30 E8,Not Acceptable,1,4,Bad,
+Organoid_382,Ba4 96_1 Dy30 E9,Acceptable,4,1,Good,
+Organoid_383,Ba4 96_1 Dy30 F1,Acceptable,5,0,Good,
+Organoid_384,Ba4 96_1 Dy30 F10(stitched),Acceptable,4,1,Good,
+Organoid_385,Ba4 96_1 Dy30 F11,Not Acceptable,1,4,Bad,
+Organoid_386,Ba4 96_1 Dy30 F12,Acceptable,5,0,Good,
+Organoid_387,Ba4 96_1 Dy30 F2,Acceptable,4,1,Good,
+Organoid_388,Ba4 96_1 Dy30 F3,Not Acceptable,1,4,Bad,
+Organoid_389,Ba4 96_1 Dy30 F4,Not Acceptable,0,5,Bad,
+Organoid_390,Ba4 96_1 Dy30 F5 INV,Not Acceptable,0,5,Bad,
+Organoid_391,Ba4 96_1 Dy30 F5,Not Acceptable,0,5,Bad,
+Organoid_392,Ba4 96_1 Dy30 F6 INV,Not Acceptable,1,4,Bad,
+Organoid_393,Ba4 96_1 Dy30 F6,Not Acceptable,1,4,Bad,
+Organoid_394,Ba4 96_1 Dy30 F7,Acceptable,5,0,Good,
+Organoid_395,Ba4 96_1 Dy30 F8,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_396,Ba4 96_1 Dy30 F9,Not Acceptable,1,4,Bad,
+Organoid_397,Ba4 96_1 Dy30 G1,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_398,Ba4 96_1 Dy30 G10,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_399,Ba4 96_1 Dy30 G11,Not Acceptable,1,4,Bad,
+Organoid_400,Ba4 96_1 Dy30 G12,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_401,Ba4 96_1 Dy30 G2,Not Acceptable,1,4,Bad,
+Organoid_402,Ba4 96_1 Dy30 G3 INV,Not Acceptable,1,4,Bad,
+Organoid_403,Ba4 96_1 Dy30 G3,Not Acceptable,1,4,Bad,
+Organoid_404,Ba4 96_1 Dy30 G4,,3,2,Uncertain-Good,Uncertain-Good
+Organoid_405,Ba4 96_1 Dy30 G5,Acceptable,4,1,Good,
+Organoid_406,Ba4 96_1 Dy30 G6,Not Acceptable,0,5,Bad,
+Organoid_407,Ba4 96_1 Dy30 G7,Acceptable,5,0,Good,
+Organoid_408,Ba4 96_1 Dy30 G8,Acceptable,4,1,Good,
+Organoid_409,Ba4 96_1 Dy30 G9,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_410,Ba4 96_1 Dy30 H1,Not Acceptable,0,5,Bad,
+Organoid_411,Ba4 96_1 Dy30 H10,Acceptable,5,0,Good,
+Organoid_412,Ba4 96_1 Dy30 H11,Not Acceptable,1,4,Bad,
+Organoid_413,Ba4 96_1 Dy30 H12,Acceptable,5,0,Good,
+Organoid_414,Ba4 96_1 Dy30 H2,Acceptable,4,1,Good,
+Organoid_415,Ba4 96_1 Dy30 H3,,2,3,Uncertain-Bad,Uncertain-Bad
+Organoid_416,Ba4 96_1 Dy30 H4,Not Acceptable,0,5,Bad,
+Organoid_417,Ba4 96_1 Dy30 H5,Not Acceptable,0,5,Bad,
+Organoid_418,Ba4 96_1 Dy30 H6,Acceptable,5,0,Good,
+Organoid_419,Ba4 96_1 Dy30 H7,Not Acceptable,1,4,Bad,
+Organoid_420,Ba4 96_1 Dy30 H8,Not Acceptable,1,4,Bad,
+Organoid_421,Ba4 96_1 Dy30 H9(stitched),Acceptable,5,0,Good,
